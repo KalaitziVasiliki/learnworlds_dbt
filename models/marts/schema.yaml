@@ -14,20 +14,19 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: [
-                'b2b_course_sellers',
-                'b2c_course_sellers',
-                'customer_training',
-                'corporate_training',
-                'government_ngos'
-              ]
+              values:
+                - 'b2b_course_sellers'
+                - 'b2c_course_sellers'
+                - 'customer_training'
+                - 'corporate_training'
+                - 'government_ngos'
 
       - name: country
         tests:
           - not_null
 
       - name: mrr_usd
-        description: "Total MRR in USD"
+        description: "Total MRR in USD (aggregated monthly recurring revenue)"
         tests:
           - not_null
 

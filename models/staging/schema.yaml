@@ -5,7 +5,9 @@ models:
     description: "Cleaned invoices data"
     columns:
       - name: invoice_id
-        tests: [not_null, unique]
+        tests:
+          - not_null
+          - unique
 
       - name: customer_id
         tests:
@@ -27,26 +29,33 @@ models:
         tests:
           - not_null
           - relationships:
-              to: ref('stg_products')
-              field: product_id
+              arguments:
+                to: ref('stg_products')
+                field: product_id
 
       - name: invoice_date
-        tests: [not_null]
+        tests:
+          - not_null
 
       - name: billing_start_date
-        tests: [not_null]
+        tests:
+          - not_null
 
       - name: billing_end_date
-        tests: [not_null]
+        tests:
+          - not_null
 
   - name: stg_customers
     description: "Customer accounts"
     columns:
       - name: customer_id
-        tests: [not_null, unique]
+        tests:
+          - not_null
+          - unique
 
       - name: country
-        tests: [not_null]
+        tests:
+          - not_null
 
       - name: default_billing_method
         tests:
@@ -57,7 +66,9 @@ models:
     description: "Product catalog"
     columns:
       - name: product_id
-        tests: [not_null, unique]
+        tests:
+          - not_null
+          - unique
 
       - name: billing_frequency
         tests:
@@ -69,14 +80,17 @@ models:
     description: "Subscriptions data"
     columns:
       - name: subscription_id
-        tests: [not_null, unique]
+        tests:
+          - not_null
+          - unique
 
       - name: school_id
         tests:
           - not_null
           - relationships:
-              to: ref('stg_schools')
-              field: school_id
+              arguments:
+                to: ref('stg_schools')
+                field: school_id
 
       - name: subscription_type
         tests:
@@ -88,7 +102,7 @@ models:
         tests:
           - accepted_values:
               values: ['credit_card', 'debit_card', 'wire']
-              
+
       - name: status
         tests:
           - not_null
@@ -103,16 +117,17 @@ models:
     description: "Schools and their use cases"
     columns:
       - name: school_id
-        tests: [not_null, unique]
+        tests:
+          - not_null
+          - unique
 
       - name: use_case
         tests:
           - not_null
           - accepted_values:
-              values: [
-                'b2b_course_sellers',
-                'b2c_course_sellers',
-                'customer_training',
-                'corporate_training',
-                'government_ngos'
-              ]
+              values:
+                - 'b2b_course_sellers'
+                - 'b2c_course_sellers'
+                - 'customer_training'
+                - 'corporate_training'
+                - 'government_ngos'
