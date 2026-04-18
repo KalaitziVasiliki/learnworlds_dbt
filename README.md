@@ -1,4 +1,4 @@
-# LearnWorlds — Analytics Engineer Take-Home (dbt Project)
+# LearnWorlds — Analytics Engineer Take-Home 
 
 ## Overview
 This project implements a layered data warehouse using dbt to calculate **Monthly Recurring Revenue (MRR)** for a SaaS business.
