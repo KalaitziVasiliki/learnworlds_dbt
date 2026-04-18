@@ -1,0 +1,118 @@
+version: 2
+
+models:
+  - name: stg_invoices
+    description: "Cleaned invoices data"
+    columns:
+      - name: invoice_id
+        tests: [not_null, unique]
+
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+
+      - name: subscription_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_subscriptions')
+                field: subscription_id
+
+      - name: product_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_products')
+              field: product_id
+
+      - name: invoice_date
+        tests: [not_null]
+
+      - name: billing_start_date
+        tests: [not_null]
+
+      - name: billing_end_date
+        tests: [not_null]
+
+  - name: stg_customers
+    description: "Customer accounts"
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
+
+      - name: country
+        tests: [not_null]
+
+      - name: default_billing_method
+        tests:
+          - accepted_values:
+              values: ['credit_card', 'debit_card', 'wire']
+
+  - name: stg_products
+    description: "Product catalog"
+    columns:
+      - name: product_id
+        tests: [not_null, unique]
+
+      - name: billing_frequency
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['monthly', 'quarterly', 'annual']
+
+  - name: stg_subscriptions
+    description: "Subscriptions data"
+    columns:
+      - name: subscription_id
+        tests: [not_null, unique]
+
+      - name: school_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_schools')
+              field: school_id
+
+      - name: subscription_type
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['starter', 'pro', 'learning_center']
+
+      - name: billing_method
+        tests:
+          - accepted_values:
+              values: ['credit_card', 'debit_card', 'wire']
+              
+      - name: status
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['active', 'cancelled']
+
+      - name: is_active
+        tests:
+          - not_null
+
+  - name: stg_schools
+    description: "Schools and their use cases"
+    columns:
+      - name: school_id
+        tests: [not_null, unique]
+
+      - name: use_case
+        tests:
+          - not_null
+          - accepted_values:
+              values: [
+                'b2b_course_sellers',
+                'b2c_course_sellers',
+                'customer_training',
+                'corporate_training',
+                'government_ngos'
+              ]

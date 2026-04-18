@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: int_invoice_enriched
+    description: "Invoices joined with customer, subscription, product, and school data"
+    columns:
+      - name: invoice_id
+        tests: [not_null]
+
+      - name: subscription_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_subscriptions')
+              field: subscription_id
+
+      - name: customer_id
+        tests:
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+
+      - name: product_id
+        tests:
+          - relationships:
+              to: ref('stg_products')
+              field: product_id
+
+      - name: country
+        tests: [not_null]
+
+      - name: use_case
+        tests: [not_null]
+
+      - name: billing_start_date
+        tests: [not_null]
+
+      - name: billing_end_date
+        tests: [not_null]
+
+      - name: amount_usd
+        tests:
+          - not_null
+
+  - name: int_mrr_expanded
+    description: "Invoices expanded into monthly revenue contributions (MRR logic)"
+    columns:
+      - name: invoice_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('int_invoice_enriched')
+              field: invoice_id
+
+      - name: month
+        description: "Month of revenue recognition"
+        tests: [not_null]
+
+      - name: country
+        tests: [not_null]
+
+      - name: use_case
+        tests: [not_null]
+
+      - name: monthly_amount
+        tests:
+          - not_null

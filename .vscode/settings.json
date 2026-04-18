@@ -1,0 +1,11 @@
+{
+    "duckdb.databases": [
+        {
+            "alias": "dev",
+            "type": "file",
+            "path": "c:\\Users\\kalai\\learnwords_project\\learnworlds_dbt\\dev.duckdb",
+            "attached": true
+        }
+    ],
+    "duckdb.defaultDatabase": "dev"
+}

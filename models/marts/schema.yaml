@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: financial_mrr
+    description: "Monthly Recurring Revenue by use case and country"
+    
+    columns:
+      - name: month
+        description: "First day of the month"
+        tests:
+          - not_null
+
+      - name: use_case
+        tests:
+          - not_null
+          - accepted_values:
+              values: [
+                'b2b_course_sellers',
+                'b2c_course_sellers',
+                'customer_training',
+                'corporate_training',
+                'government_ngos'
+              ]
+
+      - name: country
+        tests:
+          - not_null
+
+      - name: mrr_usd
+        description: "Total MRR in USD"
+        tests:
+          - not_null
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - month
+              - use_case
+              - country

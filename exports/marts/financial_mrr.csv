@@ -1,0 +1,1485 @@
+month,use_case,country,mrr_usd
+2023-12-01,government_ngos,united kingdom,455.25
+2023-12-01,corporate_training,united states,973.0
+2023-12-01,government_ngos,brazil,301.0
+2024-01-01,b2b_course_sellers,brazil,275.23
+2024-04-01,b2b_course_sellers,germany,557.0
+2024-06-01,corporate_training,netherlands,677.37
+2024-06-01,government_ngos,india,525.76
+2024-07-01,corporate_training,india,186.69
+2024-07-01,corporate_training,france,427.0
+2024-10-01,government_ngos,germany,107.81
+2025-01-01,b2b_course_sellers,india,414.05
+2025-04-01,government_ngos,germany,328.04
+2025-06-01,corporate_training,brazil,24.14
+2025-07-01,corporate_training,united states,182.07
+2023-11-01,corporate_training,netherlands,655.64
+2023-11-01,b2b_course_sellers,netherlands,692.42
+2023-11-01,corporate_training,united kingdom,572.0
+2023-11-01,b2b_course_sellers,united kingdom,1089.03
+2023-11-01,b2b_course_sellers,brazil,275.27
+2024-01-01,b2b_course_sellers,united kingdom,1089.22
+2024-12-01,government_ngos,india,1318.22
+2025-04-01,b2b_course_sellers,india,103.22
+2025-05-01,customer_training,france,103.0
+2025-06-01,government_ngos,united kingdom,273.22
+2025-07-01,customer_training,france,79.0
+2023-10-01,corporate_training,germany,249.0
+2023-10-01,government_ngos,united states,347.89
+2023-10-01,b2b_course_sellers,germany,781.53
+2023-10-01,b2c_course_sellers,france,460.86
+2023-10-01,customer_training,germany,532.77
+2023-10-01,government_ngos,australia,222.02
+2024-01-01,customer_training,germany,532.88
+2024-10-01,b2b_course_sellers,france,152.0
+2025-02-01,government_ngos,germany,328.04
+2025-03-01,corporate_training,brazil,24.11
+2025-05-01,b2b_course_sellers,australia,24.0
+2025-06-01,government_ngos,brazil,79.34
+2023-09-01,b2b_course_sellers,united states,249.0
+2023-09-01,government_ngos,germany,327.35
+2023-09-01,corporate_training,germany,249.0
+2024-02-01,government_ngos,australia,521.14
+2024-02-01,government_ngos,united states,378.82
+2024-05-01,b2b_course_sellers,germany,856.0
+2024-08-01,government_ngos,united kingdom,137.93
+2024-09-01,corporate_training,united kingdom,273.0
+2024-10-01,customer_training,germany,691.01
+2024-10-01,b2b_course_sellers,india,697.83
+2025-02-01,corporate_training,india,157.69
+2025-02-01,b2b_course_sellers,india,130.22
+2023-08-01,customer_training,france,324.5
+2023-08-01,corporate_training,india,725.62
+2023-08-01,government_ngos,united kingdom,301.12
+2023-08-01,government_ngos,brazil,371.0
+2023-08-01,b2c_course_sellers,germany,173.0
+2024-08-01,corporate_training,united kingdom,273.0
+2024-08-01,government_ngos,brazil,954.81
+2024-08-01,b2b_course_sellers,france,123.0
+2024-12-01,corporate_training,germany,132.0
+2025-01-01,government_ngos,australia,106.0
+2023-07-01,customer_training,germany,532.77
+2023-10-01,b2c_course_sellers,india,447.0
+2024-01-01,b2b_course_sellers,netherlands,570.12
+2024-02-01,customer_training,netherlands,407.0
+2024-03-01,b2c_course_sellers,canada,207.0
+2024-08-01,b2b_course_sellers,india,697.83
+2025-01-01,government_ngos,united states,80.07
+2023-06-01,customer_training,germany,532.77
+2023-06-01,b2c_course_sellers,canada,647.0
+2023-11-01,corporate_training,brazil,311.0
+2024-06-01,corporate_training,united kingdom,572.0
+2024-06-01,b2b_course_sellers,france,123.0
+2024-07-01,customer_training,germany,581.0
+2024-11-01,corporate_training,india,256.69
+2025-01-01,corporate_training,united states,209.07
+2025-02-01,corporate_training,france,172.69
+2023-05-01,corporate_training,united states,376.0
+2023-05-01,b2c_course_sellers,germany,202.0
+2024-04-01,customer_training,canada,1344.37
+2024-06-01,customer_training,germany,557.0
+2024-06-01,b2b_course_sellers,india,744.0
+2024-08-01,b2c_course_sellers,france,744.98
+2024-08-01,b2c_course_sellers,india,477.14
+2024-10-01,corporate_training,india,256.69
+2023-04-01,corporate_training,netherlands,526.04
+2023-04-01,corporate_training,united kingdom,572.0
+2023-04-01,b2c_course_sellers,germany,202.0
+2023-04-01,b2b_course_sellers,france,152.0
+2024-03-01,customer_training,canada,1344.37
+2024-04-01,corporate_training,canada,249.0
+2024-09-01,corporate_training,brazil,174.11
+2023-03-01,b2c_course_sellers,brazil,471.0
+2023-03-01,b2c_course_sellers,united kingdom,670.48
+2023-03-01,corporate_training,united states,376.0
+2024-03-01,b2c_course_sellers,spain,416.55
+2024-08-01,corporate_training,brazil,174.11
+2024-11-01,corporate_training,france,763.69
+2023-03-01,corporate_training,australia,86.57
+2023-03-01,b2c_course_sellers,netherlands,56.0
+2023-06-01,b2c_course_sellers,spain,225.0
+2024-02-01,customer_training,brazil,284.48
+2024-04-01,customer_training,spain,393.0
+2024-05-01,b2c_course_sellers,france,486.0
+2024-06-01,corporate_training,brazil,201.0
+2024-08-01,government_ngos,netherlands,781.0
+2024-10-01,corporate_training,france,693.69
+2023-02-01,government_ngos,united kingdom,158.0
+2023-02-01,government_ngos,brazil,234.0
+2024-05-01,b2c_course_sellers,india,647.0
+2023-02-01,b2c_course_sellers,australia,620.0
+2023-02-01,government_ngos,netherlands,912.57
+2023-02-01,b2c_course_sellers,united states,321.0
+2023-04-01,corporate_training,brazil,217.0
+2023-08-01,corporate_training,france,731.0
+2023-09-01,customer_training,spain,184.51
+2023-12-01,government_ngos,netherlands,717.92
+2023-12-01,b2b_course_sellers,canada,610.0
+2024-03-01,customer_training,spain,393.0
+2023-01-01,customer_training,germany,308.0
+2023-01-01,b2c_course_sellers,canada,447.0
+2023-01-01,b2b_course_sellers,france,152.0
+2024-04-01,corporate_training,spain,704.0
+2023-01-01,b2b_course_sellers,india,126.0
+2023-01-01,b2c_course_sellers,spain,126.0
+2023-08-01,government_ngos,netherlands,911.0
+2024-02-01,b2b_course_sellers,canada,540.0
+2023-03-01,b2b_course_sellers,spain,328.0
+2023-03-01,b2b_course_sellers,canada,99.0
+2023-05-01,corporate_training,australia,58.0
+2023-08-01,customer_training,india,58.0
+2023-09-01,b2b_course_sellers,australia,99.0
+2023-09-01,customer_training,canada,297.0
+2023-11-01,customer_training,australia,128.0
+2023-12-01,corporate_training,australia,58.0
+2023-12-01,b2c_course_sellers,united states,526.0
+2023-12-01,b2c_course_sellers,australia,398.0
+2023-12-01,b2b_course_sellers,spain,427.0
+2024-02-01,customer_training,united kingdom,299.0
+2024-02-01,b2c_course_sellers,australia,398.0
+2024-02-01,b2c_course_sellers,united states,128.0
+2024-02-01,b2b_course_sellers,spain,497.0
+2024-03-01,b2b_course_sellers,australia,99.0
+2024-03-01,b2b_course_sellers,united states,99.0
+2024-06-01,government_ngos,france,99.0
+2024-06-01,b2c_course_sellers,australia,99.0
+2024-06-01,b2c_course_sellers,united states,128.0
+2024-07-01,b2c_course_sellers,australia,99.0
+2024-07-01,b2c_course_sellers,united states,128.0
+2024-08-01,corporate_training,netherlands,299.0
+2024-09-01,b2b_course_sellers,spain,596.0
+2024-09-01,corporate_training,netherlands,299.0
+2024-09-01,b2b_course_sellers,canada,1095.0
+2025-08-01,b2c_course_sellers,united states,24.04
+2025-09-01,b2c_course_sellers,spain,79.0
+2025-09-01,corporate_training,australia,79.01
+2025-09-01,corporate_training,united states,182.0
+2025-11-01,government_ngos,india,249.0
+2025-11-01,corporate_training,canada,79.0
+2025-09-01,b2b_course_sellers,germany,248.9
+2025-10-01,government_ngos,united states,79.0
+2025-07-01,corporate_training,australia,79.01
+2025-08-01,corporate_training,united kingdom,103.0
+2025-08-01,b2b_course_sellers,germany,248.9
+2025-08-01,corporate_training,netherlands,79.0
+2025-06-01,corporate_training,united kingdom,103.0
+2025-07-01,b2b_course_sellers,india,24.0
+2025-05-01,corporate_training,germany,24.0
+2025-06-01,corporate_training,netherlands,79.0
+2025-04-01,customer_training,australia,249.0
+2025-02-01,b2c_course_sellers,germany,24.0
+2025-03-01,corporate_training,united kingdom,103.0
+2025-01-01,corporate_training,australia,79.01
+2025-03-01,corporate_training,netherlands,79.0
+2024-11-01,b2c_course_sellers,united states,152.04
+2025-01-01,customer_training,australia,249.0
+2024-11-01,government_ngos,spain,422.0
+2024-12-01,b2b_course_sellers,spain,524.0
+2024-10-01,b2c_course_sellers,germany,308.0
+2024-11-01,b2b_course_sellers,spain,324.0
+2024-11-01,b2b_course_sellers,canada,1295.0
+2024-11-01,b2c_course_sellers,australia,58.0
+2024-11-01,government_ngos,canada,99.0
+2024-12-01,government_ngos,france,227.0
+2024-12-01,b2b_course_sellers,canada,1295.0
+2023-12-01,customer_training,germany,532.77
+2023-12-01,b2b_course_sellers,france,123.0
+2024-01-01,b2c_course_sellers,united kingdom,703.64
+2024-03-01,b2c_course_sellers,france,272.0
+2024-03-01,b2c_course_sellers,india,647.0
+2024-04-01,corporate_training,india,328.14
+2024-07-01,b2b_course_sellers,netherlands,682.64
+2024-08-01,b2c_course_sellers,canada,277.57
+2024-12-01,customer_training,brazil,680.89
+2024-12-01,b2b_course_sellers,france,53.0
+2025-05-01,b2c_course_sellers,netherlands,24.22
+2025-06-01,customer_training,germany,158.09
+2025-07-01,government_ngos,united kingdom,273.22
+2025-08-01,government_ngos,brazil,79.34
+2023-11-01,b2c_course_sellers,brazil,270.86
+2023-11-01,government_ngos,germany,272.14
+2023-11-01,b2c_course_sellers,united kingdom,903.12
+2024-04-01,b2c_course_sellers,united kingdom,720.75
+2024-05-01,government_ngos,germany,497.68
+2024-07-01,b2b_course_sellers,united kingdom,1039.0
+2024-07-01,government_ngos,australia,370.87
+2024-09-01,government_ngos,germany,107.81
+2024-11-01,customer_training,brazil,581.89
+2024-11-01,b2b_course_sellers,france,53.0
+2024-11-01,corporate_training,canada,305.0
+2024-12-01,b2b_course_sellers,india,542.05
+2025-01-01,b2c_course_sellers,netherlands,24.9
+2025-01-01,b2c_course_sellers,united kingdom,498.34
+2025-02-01,corporate_training,spain,118.22
+2025-04-01,corporate_training,brazil,24.11
+2025-05-01,government_ngos,germany,327.9
+2025-07-01,b2c_course_sellers,united kingdom,249.0
+2025-07-01,b2c_course_sellers,netherlands,24.0
+2025-07-01,government_ngos,brazil,79.34
+2023-10-01,b2c_course_sellers,canada,377.32
+2024-01-01,b2c_course_sellers,brazil,272.0
+2024-02-01,b2b_course_sellers,india,416.04
+2024-03-01,government_ngos,australia,321.14
+2024-03-01,government_ngos,united states,378.82
+2024-03-01,corporate_training,brazil,175.04
+2024-04-01,government_ngos,germany,328.0
+2024-05-01,customer_training,netherlands,461.92
+2024-05-01,corporate_training,united states,734.0
+2024-10-01,corporate_training,canada,278.0
+2024-11-01,government_ngos,india,1025.0
+2024-11-01,b2b_course_sellers,india,598.83
+2024-12-01,customer_training,netherlands,742.11
+2024-12-01,b2c_course_sellers,netherlands,123.9
+2024-12-01,b2c_course_sellers,united kingdom,891.34
+2025-03-01,government_ngos,australia,79.0
+2025-06-01,b2c_course_sellers,united kingdom,249.0
+2025-06-01,b2b_course_sellers,united kingdom,351.9
+2025-06-01,b2c_course_sellers,netherlands,24.0
+2023-09-01,customer_training,france,494.93
+2024-03-01,corporate_training,netherlands,477.37
+2024-04-01,corporate_training,france,489.0
+2024-04-01,b2c_course_sellers,netherlands,347.74
+2024-05-01,b2c_course_sellers,canada,108.0
+2024-09-01,b2b_course_sellers,france,152.0
+2024-11-01,customer_training,netherlands,745.23
+2025-03-01,government_ngos,united states,80.07
+2025-03-01,customer_training,netherlands,250.0
+2025-05-01,b2c_course_sellers,united kingdom,249.0
+2023-08-01,b2b_course_sellers,germany,421.65
+2023-08-01,corporate_training,spain,177.99
+2023-08-01,corporate_training,canada,79.0
+2023-12-01,b2b_course_sellers,india,363.04
+2024-04-01,customer_training,france,927.3
+2024-08-01,b2c_course_sellers,spain,759.0
+2024-09-01,customer_training,germany,691.01
+2024-09-01,b2b_course_sellers,india,697.83
+2024-11-01,corporate_training,spain,516.22
+2025-03-01,customer_training,brazil,328.15
+2025-03-01,b2b_course_sellers,australia,24.0
+2023-07-01,b2b_course_sellers,united states,249.0
+2023-07-01,government_ngos,germany,327.35
+2023-07-01,corporate_training,germany,249.0
+2024-01-01,government_ngos,germany,328.0
+2024-02-01,corporate_training,united states,830.0
+2024-03-01,customer_training,france,1258.88
+2024-07-01,government_ngos,united states,559.57
+2024-07-01,corporate_training,canada,249.0
+2024-08-01,customer_training,germany,581.0
+2024-10-01,corporate_training,spain,516.22
+2023-06-01,corporate_training,netherlands,656.04
+2023-06-01,b2b_course_sellers,united states,249.0
+2023-06-01,corporate_training,united kingdom,572.0
+2023-06-01,government_ngos,germany,158.0
+2023-06-01,b2c_course_sellers,france,660.86
+2024-01-01,b2c_course_sellers,netherlands,178.0
+2023-05-01,b2b_course_sellers,united states,249.0
+2023-05-01,government_ngos,germany,158.0
+2024-05-01,customer_training,brazil,301.0
+2024-05-01,b2c_course_sellers,spain,417.0
+2023-04-01,customer_training,brazil,1145.0
+2023-04-01,government_ngos,united states,207.43
+2023-04-01,government_ngos,australia,222.0
+2023-11-01,b2c_course_sellers,netherlands,135.0
+2024-07-01,corporate_training,spain,472.0
+2023-03-01,customer_training,brazil,1145.0
+2023-03-01,government_ngos,united states,207.43
+2023-03-01,b2b_course_sellers,france,152.0
+2023-03-01,government_ngos,australia,152.0
+2023-06-01,b2c_course_sellers,india,278.0
+2024-03-01,corporate_training,united kingdom,572.0
+2023-03-01,b2b_course_sellers,india,126.0
+2023-06-01,corporate_training,brazil,540.0
+2023-09-01,b2c_course_sellers,australia,591.0
+2024-08-01,b2b_course_sellers,canada,1122.0
+2024-09-01,b2c_course_sellers,germany,284.0
+2023-02-01,corporate_training,united states,376.0
+2023-02-01,b2b_course_sellers,germany,185.04
+2024-02-01,b2b_course_sellers,france,222.0
+2023-02-01,corporate_training,australia,86.57
+2023-02-01,customer_training,australia,382.0
+2023-05-01,customer_training,australia,452.0
+2023-01-01,government_ngos,united kingdom,158.0
+2023-01-01,corporate_training,germany,249.0
+2023-01-01,government_ngos,brazil,234.0
+2023-01-01,b2c_course_sellers,france,832.0
+2023-01-01,government_ngos,netherlands,721.0
+2023-04-01,b2b_course_sellers,spain,422.0
+2023-07-01,b2c_course_sellers,australia,591.0
+2023-08-01,customer_training,spain,181.0
+2023-10-01,b2c_course_sellers,spain,492.0
+2024-04-01,b2c_course_sellers,brazil,193.0
+2024-06-01,b2b_course_sellers,canada,1122.0
+2024-07-01,b2b_course_sellers,brazil,153.0
+2023-01-01,b2c_course_sellers,india,29.0
+2023-01-01,b2b_course_sellers,spain,29.0
+2023-02-01,customer_training,united states,99.0
+2023-03-01,customer_training,united kingdom,198.0
+2023-03-01,customer_training,netherlands,99.0
+2023-04-01,customer_training,united kingdom,198.0
+2023-04-01,customer_training,netherlands,99.0
+2023-04-01,b2b_course_sellers,canada,99.0
+2023-05-01,b2b_course_sellers,australia,29.0
+2023-06-01,b2b_course_sellers,australia,29.0
+2023-07-01,b2c_course_sellers,united states,726.0
+2023-07-01,b2b_course_sellers,australia,29.0
+2023-08-01,customer_training,canada,396.0
+2023-09-01,customer_training,india,128.0
+2023-09-01,b2c_course_sellers,united states,726.0
+2024-02-01,corporate_training,australia,357.0
+2024-03-01,customer_training,india,328.0
+2024-04-01,customer_training,india,29.0
+2024-05-01,corporate_training,australia,427.0
+2024-05-01,customer_training,united kingdom,598.0
+2024-06-01,b2b_course_sellers,spain,596.0
+2024-06-01,government_ngos,canada,99.0
+2024-06-01,government_ngos,spain,99.0
+2024-08-01,b2b_course_sellers,spain,796.0
+2025-09-01,b2c_course_sellers,india,249.0
+2025-10-01,corporate_training,united kingdom,103.0
+2025-11-01,b2b_course_sellers,india,24.0
+2025-11-01,government_ngos,canada,249.0
+2025-09-01,government_ngos,germany,248.9
+2025-10-01,corporate_training,netherlands,79.0
+2025-08-01,government_ngos,united kingdom,273.0
+2025-08-01,customer_training,australia,249.0
+2025-04-01,b2c_course_sellers,united states,24.04
+2025-03-01,b2c_course_sellers,germany,24.0
+2025-04-01,corporate_training,united kingdom,103.0
+2025-04-01,corporate_training,netherlands,79.0
+2025-02-01,customer_training,australia,249.0
+2025-02-01,corporate_training,canada,79.0
+2024-12-01,government_ngos,spain,353.98
+2024-12-01,b2c_course_sellers,brazil,193.0
+2025-01-01,b2b_course_sellers,spain,27.0
+2024-12-01,government_ngos,canada,348.0
+2024-10-01,b2b_course_sellers,spain,297.0
+2024-10-01,b2b_course_sellers,canada,1095.0
+2024-11-01,government_ngos,france,128.0
+2024-11-01,customer_training,united kingdom,398.0
+2024-12-01,customer_training,united kingdom,299.0
+2023-12-01,corporate_training,netherlands,655.64
+2023-12-01,corporate_training,united kingdom,572.0
+2023-12-01,b2c_course_sellers,brazil,270.86
+2023-12-01,b2c_course_sellers,united kingdom,1202.12
+2023-12-01,government_ngos,united states,547.89
+2023-12-01,government_ngos,australia,222.02
+2024-02-01,b2c_course_sellers,united kingdom,824.64
+2024-02-01,government_ngos,united kingdom,526.13
+2024-04-01,b2b_course_sellers,india,744.04
+2024-05-01,b2b_course_sellers,india,773.0
+2024-06-01,government_ngos,germany,497.68
+2024-07-01,b2c_course_sellers,netherlands,178.42
+2024-08-01,b2b_course_sellers,germany,856.0
+2024-08-01,government_ngos,australia,770.87
+2024-10-01,government_ngos,india,1024.18
+2024-10-01,customer_training,france,915.5
+2024-10-01,b2b_course_sellers,germany,1248.85
+2024-12-01,government_ngos,germany,426.71
+2025-04-01,b2b_course_sellers,germany,497.9
+2025-05-01,corporate_training,india,157.69
+2025-06-01,government_ngos,united states,80.07
+2025-07-01,corporate_training,brazil,24.0
+2025-08-01,b2c_course_sellers,united kingdom,249.0
+2025-08-01,b2c_course_sellers,netherlands,24.0
+2023-11-01,b2b_course_sellers,united states,249.0
+2023-11-01,customer_training,brazil,443.03
+2023-11-01,corporate_training,united states,973.0
+2024-01-01,customer_training,france,1001.29
+2024-02-01,b2c_course_sellers,brazil,272.0
+2024-06-01,corporate_training,united states,734.0
+2024-06-01,b2c_course_sellers,netherlands,178.42
+2024-07-01,customer_training,france,872.23
+2024-09-01,corporate_training,united states,806.0
+2025-01-01,customer_training,netherlands,344.11
+2025-01-01,government_ngos,united kingdom,274.29
+2025-02-01,b2c_course_sellers,france,79.0
+2025-02-01,b2c_course_sellers,india,249.24
+2025-04-01,government_ngos,india,249.22
+2025-05-01,customer_training,germany,158.09
+2025-06-01,corporate_training,united states,182.07
+2025-07-01,customer_training,germany,158.0
+2023-10-01,customer_training,france,424.93
+2023-10-01,corporate_training,india,725.62
+2023-10-01,government_ngos,united kingdom,400.12
+2023-10-01,government_ngos,brazil,301.0
+2023-10-01,b2c_course_sellers,germany,173.0
+2023-10-01,b2b_course_sellers,france,123.0
+2024-01-01,corporate_training,india,627.14
+2024-06-01,b2b_course_sellers,germany,856.0
+2024-06-01,customer_training,france,926.78
+2024-08-01,corporate_training,united states,707.0
+2024-09-01,customer_training,canada,761.37
+2025-02-01,b2b_course_sellers,germany,808.9
+2025-02-01,corporate_training,germany,103.0
+2025-03-01,b2c_course_sellers,canada,79.68
+2025-04-01,customer_training,netherlands,250.0
+2023-09-01,b2b_course_sellers,netherlands,492.42
+2023-09-01,corporate_training,india,725.62
+2023-09-01,government_ngos,india,795.43
+2023-09-01,b2b_course_sellers,united kingdom,475.62
+2023-09-01,b2b_course_sellers,brazil,275.27
+2024-03-01,b2b_course_sellers,brazil,305.0
+2024-03-01,b2b_course_sellers,netherlands,485.35
+2024-03-01,b2b_course_sellers,united kingdom,892.98
+2024-07-01,b2c_course_sellers,united kingdom,720.42
+2024-08-01,customer_training,canada,1045.37
+2024-09-01,b2c_course_sellers,spain,745.0
+2024-11-01,b2c_course_sellers,netherlands,53.9
+2024-11-01,b2c_course_sellers,united kingdom,891.34
+2025-01-01,b2b_course_sellers,germany,808.9
+2025-02-01,government_ngos,india,343.22
+2025-04-01,customer_training,brazil,328.15
+2025-05-01,corporate_training,france,78.69
+2025-05-01,b2b_course_sellers,united kingdom,351.9
+2023-08-01,corporate_training,germany,249.0
+2023-08-01,government_ngos,united states,547.89
+2023-08-01,b2c_course_sellers,france,660.86
+2023-08-01,customer_training,germany,532.77
+2023-08-01,government_ngos,australia,476.88
+2024-06-01,b2c_course_sellers,united kingdom,720.42
+2024-08-01,government_ngos,united states,559.57
+2025-01-01,government_ngos,brazil,174.02
+2025-01-01,corporate_training,brazil,51.11
+2025-03-01,corporate_training,united states,182.07
+2025-03-01,b2c_course_sellers,spain,103.0
+2023-07-01,customer_training,france,324.5
+2023-07-01,corporate_training,spain,177.99
+2023-07-01,corporate_training,canada,79.0
+2023-12-01,corporate_training,brazil,212.0
+2024-02-01,b2c_course_sellers,netherlands,178.0
+2024-10-01,b2c_course_sellers,france,746.0
+2024-10-01,b2c_course_sellers,india,647.24
+2024-11-01,corporate_training,germany,161.0
+2024-12-01,corporate_training,india,256.69
+2023-06-01,customer_training,france,527.1
+2023-10-01,b2b_course_sellers,india,363.04
+2024-01-01,corporate_training,france,761.0
+2024-10-01,corporate_training,germany,108.0
+2025-01-01,customer_training,brazil,328.15
+2023-05-01,corporate_training,netherlands,526.04
+2023-05-01,corporate_training,united kingdom,572.0
+2023-05-01,b2c_course_sellers,france,660.86
+2023-08-01,b2c_course_sellers,india,447.0
+2023-12-01,b2c_course_sellers,netherlands,205.0
+2024-05-01,b2b_course_sellers,france,123.0
+2023-04-01,corporate_training,united states,376.0
+2023-04-01,b2b_course_sellers,germany,185.04
+2023-04-01,b2c_course_sellers,france,660.86
+2023-11-01,customer_training,netherlands,323.0
+2024-04-01,b2b_course_sellers,france,123.0
+2024-09-01,b2c_course_sellers,canada,108.68
+2024-12-01,corporate_training,france,963.69
+2023-03-01,corporate_training,netherlands,526.04
+2023-03-01,corporate_training,united kingdom,572.0
+2023-10-01,corporate_training,france,761.0
+2024-07-01,corporate_training,germany,79.0
+2023-03-01,corporate_training,brazil,277.53
+2023-03-01,b2c_course_sellers,australia,620.0
+2023-03-01,b2c_course_sellers,united states,550.0
+2023-04-01,corporate_training,australia,85.0
+2023-05-01,corporate_training,brazil,217.0
+2023-06-01,government_ngos,canada,121.0
+2023-07-01,government_ngos,canada,27.0
+2023-09-01,corporate_training,france,731.0
+2023-10-01,government_ngos,netherlands,981.0
+2024-01-01,government_ngos,canada,326.0
+2024-02-01,government_ngos,netherlands,721.0
+2024-06-01,b2c_course_sellers,brazil,220.0
+2024-07-01,b2c_course_sellers,brazil,220.0
+2024-09-01,government_ngos,spain,126.0
+2023-02-01,b2c_course_sellers,brazil,471.0
+2023-02-01,b2c_course_sellers,united kingdom,331.43
+2023-02-01,government_ngos,united states,207.43
+2023-02-01,government_ngos,australia,152.0
+2023-05-01,b2c_course_sellers,india,278.0
+2024-02-01,government_ngos,brazil,395.0
+2023-02-01,b2c_course_sellers,netherlands,56.0
+2023-05-01,government_ngos,canada,121.0
+2023-08-01,b2b_course_sellers,spain,612.51
+2023-12-01,customer_training,spain,393.0
+2024-05-01,b2c_course_sellers,germany,284.0
+2024-08-01,b2c_course_sellers,germany,284.0
+2024-09-01,customer_training,spain,393.0
+2023-01-01,customer_training,france,763.0
+2023-01-01,b2b_course_sellers,germany,130.0
+2023-01-01,corporate_training,spain,108.0
+2023-01-01,corporate_training,canada,79.0
+2023-04-01,b2c_course_sellers,india,278.0
+2023-12-01,customer_training,canada,946.0
+2023-08-01,b2b_course_sellers,canada,383.0
+2023-11-01,government_ngos,canada,326.0
+2024-08-01,customer_training,spain,393.0
+2023-01-01,customer_training,india,227.0
+2023-02-01,b2b_course_sellers,spain,29.0
+2023-02-01,b2b_course_sellers,canada,99.0
+2023-05-01,government_ngos,spain,29.0
+2023-06-01,customer_training,india,227.0
+2023-06-01,government_ngos,spain,29.0
+2023-07-01,government_ngos,spain,99.0
+2023-07-01,customer_training,india,227.0
+2023-09-01,government_ngos,france,99.0
+2023-10-01,customer_training,india,128.0
+2023-11-01,corporate_training,australia,128.0
+2023-11-01,b2b_course_sellers,australia,99.0
+2023-11-01,customer_training,united kingdom,99.0
+2024-01-01,customer_training,india,328.0
+2024-01-01,b2b_course_sellers,australia,99.0
+2024-02-01,customer_training,australia,99.0
+2024-04-01,government_ngos,canada,99.0
+2024-05-01,government_ngos,canada,99.0
+2024-06-01,customer_training,india,328.0
+2024-06-01,corporate_training,australia,427.0
+2024-07-01,customer_training,india,398.0
+2024-08-01,corporate_training,australia,398.0
+2024-09-01,government_ngos,canada,99.0
+2024-09-01,corporate_training,australia,398.0
+2025-10-01,government_ngos,united kingdom,273.0
+2025-10-01,government_ngos,brazil,79.0
+2025-11-01,government_ngos,germany,249.0
+2025-08-01,corporate_training,australia,79.01
+2025-08-01,corporate_training,united states,182.0
+2025-09-01,corporate_training,united kingdom,103.0
+2025-09-01,b2b_course_sellers,india,24.0
+2025-09-01,government_ngos,canada,249.0
+2025-09-01,corporate_training,netherlands,79.0
+2025-06-01,corporate_training,australia,79.01
+2025-07-01,corporate_training,united kingdom,103.0
+2025-07-01,b2b_course_sellers,germany,248.9
+2025-08-01,b2b_course_sellers,india,24.0
+2025-07-01,corporate_training,netherlands,79.0
+2025-03-01,corporate_training,australia,79.01
+2025-05-01,government_ngos,canada,249.0
+2025-01-01,corporate_training,united kingdom,103.0
+2025-01-01,corporate_training,netherlands,79.0
+2024-11-01,b2c_course_sellers,brazil,193.0
+2025-01-01,government_ngos,netherlands,94.0
+2024-10-01,customer_training,india,198.0
+2024-10-01,government_ngos,france,128.0
+2023-12-01,corporate_training,germany,249.0
+2023-12-01,government_ngos,india,497.0
+2023-12-01,b2c_course_sellers,germany,173.0
+2024-02-01,customer_training,france,1263.44
+2024-03-01,corporate_training,spain,677.0
+2024-05-01,b2c_course_sellers,united kingdom,720.75
+2024-06-01,b2b_course_sellers,brazil,375.0
+2024-06-01,b2b_course_sellers,netherlands,682.99
+2024-06-01,b2b_course_sellers,united kingdom,1039.22
+2024-07-01,corporate_training,netherlands,677.0
+2024-08-01,b2b_course_sellers,united kingdom,1039.0
+2024-09-01,corporate_training,france,865.3
+2024-11-01,customer_training,canada,662.37
+2024-12-01,corporate_training,united states,715.07
+2024-12-01,customer_training,canada,662.0
+2024-12-01,government_ngos,brazil,954.83
+2024-12-01,b2c_course_sellers,spain,791.78
+2025-01-01,b2b_course_sellers,netherlands,158.0
+2025-01-01,customer_training,germany,407.01
+2025-04-01,b2b_course_sellers,netherlands,79.0
+2025-04-01,customer_training,germany,407.09
+2025-04-01,b2b_course_sellers,united kingdom,600.9
+2025-05-01,b2c_course_sellers,canada,79.68
+2025-06-01,corporate_training,india,79.0
+2025-07-01,customer_training,brazil,328.15
+2025-07-01,b2c_course_sellers,spain,103.0
+2025-08-01,corporate_training,france,78.69
+2023-11-01,corporate_training,india,725.62
+2023-11-01,customer_training,germany,532.77
+2023-11-01,b2c_course_sellers,canada,206.32
+2023-11-01,b2b_course_sellers,france,123.0
+2024-03-01,b2b_course_sellers,germany,557.0
+2024-06-01,corporate_training,india,328.0
+2024-06-01,corporate_training,france,401.12
+2024-08-01,corporate_training,france,693.71
+2024-08-01,government_ngos,india,824.3
+2024-11-01,corporate_training,united kingdom,352.0
+2025-04-01,government_ngos,australia,79.0
+2025-05-01,customer_training,netherlands,250.0
+2025-06-01,b2c_course_sellers,spain,103.0
+2025-07-01,b2b_course_sellers,united kingdom,351.9
+2025-07-01,customer_training,netherlands,249.04
+2025-07-01,b2c_course_sellers,canada,79.0
+2023-10-01,b2b_course_sellers,united states,249.0
+2023-10-01,b2c_course_sellers,brazil,270.86
+2023-10-01,government_ngos,germany,327.35
+2023-10-01,b2c_course_sellers,united kingdom,532.94
+2023-10-01,corporate_training,united states,600.0
+2024-05-01,b2c_course_sellers,netherlands,347.74
+2024-08-01,b2c_course_sellers,united kingdom,720.42
+2024-10-01,government_ngos,united states,342.57
+2024-10-01,corporate_training,united kingdom,273.0
+2024-12-01,government_ngos,united kingdom,303.29
+2025-02-01,b2b_course_sellers,netherlands,79.0
+2025-02-01,b2b_course_sellers,united kingdom,600.9
+2025-03-01,corporate_training,india,157.69
+2025-04-01,government_ngos,united states,80.07
+2025-05-01,customer_training,brazil,328.15
+2025-05-01,corporate_training,united states,182.07
+2025-05-01,b2c_course_sellers,spain,103.0
+2025-06-01,corporate_training,france,78.69
+2025-06-01,b2c_course_sellers,canada,79.0
+2023-09-01,corporate_training,united states,600.0
+2023-09-01,government_ngos,united states,547.89
+2023-09-01,b2b_course_sellers,germany,781.68
+2023-09-01,government_ngos,australia,222.02
+2024-01-01,b2b_course_sellers,india,363.04
+2024-10-01,b2b_course_sellers,netherlands,684.0
+2025-01-01,government_ngos,germany,328.04
+2025-01-01,corporate_training,germany,103.0
+2025-01-01,b2b_course_sellers,united kingdom,600.9
+2025-02-01,government_ngos,australia,79.0
+2025-02-01,corporate_training,brazil,51.11
+2023-08-01,corporate_training,netherlands,655.64
+2023-08-01,customer_training,brazil,442.0
+2023-08-01,corporate_training,united kingdom,572.0
+2023-08-01,government_ngos,india,795.43
+2024-02-01,government_ngos,germany,328.0
+2024-04-01,b2c_course_sellers,canada,108.0
+2025-01-01,b2c_course_sellers,canada,79.68
+2025-02-01,government_ngos,united states,80.07
+2023-11-01,b2b_course_sellers,india,363.04
+2024-06-01,government_ngos,united kingdom,376.86
+2024-07-01,corporate_training,united kingdom,273.0
+2024-08-01,b2b_course_sellers,netherlands,684.0
+2024-12-01,b2c_course_sellers,canada,207.68
+2025-03-01,corporate_training,france,78.69
+2023-06-01,corporate_training,spain,78.99
+2023-06-01,corporate_training,canada,79.0
+2024-01-01,corporate_training,united states,873.0
+2024-05-01,customer_training,canada,1144.37
+2024-06-01,government_ngos,brazil,655.81
+2024-08-01,b2c_course_sellers,netherlands,178.68
+2024-10-01,b2b_course_sellers,united kingdom,983.9
+2024-11-01,corporate_training,brazil,174.11
+2025-01-01,b2c_course_sellers,spain,197.0
+2023-05-01,corporate_training,germany,249.0
+2024-01-01,b2c_course_sellers,canada,207.0
+2024-10-01,government_ngos,australia,472.0
+2024-10-01,corporate_training,brazil,174.11
+2023-04-01,b2b_course_sellers,netherlands,509.0
+2023-04-01,corporate_training,india,470.64
+2023-04-01,b2b_course_sellers,united kingdom,685.0
+2023-04-01,b2b_course_sellers,brazil,405.04
+2023-11-01,corporate_training,france,761.0
+2024-04-01,b2c_course_sellers,spain,416.55
+2024-09-01,corporate_training,india,256.69
+2023-03-01,corporate_training,germany,249.0
+2023-03-01,b2c_course_sellers,france,832.0
+2023-08-01,corporate_training,brazil,540.0
+2023-10-01,b2c_course_sellers,netherlands,135.0
+2024-03-01,corporate_training,canada,249.0
+2024-08-01,corporate_training,india,256.69
+2023-03-01,customer_training,spain,254.0
+2023-06-01,customer_training,australia,452.0
+2024-01-01,b2c_course_sellers,spain,350.0
+2024-06-01,b2c_course_sellers,germany,284.0
+2024-07-01,corporate_training,brazil,255.97
+2023-02-01,government_ngos,india,527.14
+2023-02-01,b2c_course_sellers,germany,392.0
+2023-04-01,corporate_training,france,882.51
+2023-05-01,b2c_course_sellers,australia,521.0
+2023-08-01,b2c_course_sellers,australia,591.0
+2023-11-01,b2c_course_sellers,spain,425.51
+2024-02-01,b2c_course_sellers,germany,94.0
+2024-05-01,b2c_course_sellers,brazil,220.0
+2024-07-01,b2b_course_sellers,canada,1122.0
+2024-07-01,customer_training,australia,654.0
+2024-08-01,b2c_course_sellers,brazil,193.0
+2024-08-01,b2b_course_sellers,brazil,153.0
+2023-01-01,b2b_course_sellers,netherlands,509.0
+2023-01-01,b2b_course_sellers,united kingdom,407.0
+2023-01-01,b2b_course_sellers,brazil,150.0
+2023-08-01,customer_training,netherlands,323.0
+2024-01-01,b2b_course_sellers,france,152.0
+2023-01-01,customer_training,australia,382.0
+2023-01-01,government_ngos,canada,193.0
+2023-04-01,b2c_course_sellers,australia,521.0
+2023-04-01,customer_training,spain,184.0
+2024-05-01,customer_training,spain,393.0
+2024-06-01,government_ngos,netherlands,711.0
+2024-06-01,customer_training,australia,654.0
+2024-07-01,b2c_course_sellers,germany,284.0
+2023-01-01,government_ngos,spain,29.0
+2023-01-01,customer_training,united states,29.0
+2023-02-01,government_ngos,france,99.0
+2023-03-01,customer_training,canada,396.0
+2023-03-01,b2c_course_sellers,india,29.0
+2023-04-01,b2c_course_sellers,united states,526.0
+2023-04-01,customer_training,canada,396.0
+2023-05-01,b2c_course_sellers,united states,526.0
+2023-07-01,customer_training,australia,398.0
+2023-08-01,b2c_course_sellers,united states,526.0
+2023-08-01,government_ngos,france,99.0
+2023-08-01,customer_training,united kingdom,398.0
+2023-09-01,corporate_training,australia,58.0
+2023-10-01,b2b_course_sellers,australia,99.0
+2023-10-01,customer_training,australia,227.0
+2023-10-01,corporate_training,australia,58.0
+2023-12-01,government_ngos,france,99.0
+2024-01-01,customer_training,australia,198.0
+2024-01-01,corporate_training,australia,357.0
+2024-02-01,customer_training,india,328.0
+2024-04-01,b2b_course_sellers,australia,99.0
+2024-04-01,b2b_course_sellers,united states,99.0
+2024-05-01,b2b_course_sellers,australia,99.0
+2024-05-01,b2b_course_sellers,united states,99.0
+2024-07-01,b2b_course_sellers,spain,796.0
+2024-08-01,government_ngos,france,128.0
+2025-10-01,b2b_course_sellers,germany,248.9
+2025-10-01,government_ngos,germany,248.9
+2025-11-01,government_ngos,united kingdom,24.0
+2025-08-01,b2c_course_sellers,germany,24.0
+2025-09-01,corporate_training,germany,24.0
+2025-10-01,corporate_training,canada,79.0
+2025-07-01,corporate_training,germany,24.0
+2025-08-01,government_ngos,canada,249.0
+2025-05-01,corporate_training,australia,79.01
+2025-07-01,government_ngos,canada,249.0
+2025-04-01,corporate_training,spain,24.0
+2025-05-01,b2b_course_sellers,germany,248.9
+2025-06-01,government_ngos,india,249.0
+2025-02-01,b2c_course_sellers,united states,24.04
+2025-04-01,corporate_training,canada,79.0
+2025-02-01,corporate_training,united kingdom,103.0
+2024-12-01,corporate_training,australia,477.01
+2025-02-01,corporate_training,netherlands,79.0
+2024-10-01,b2c_course_sellers,united states,277.0
+2024-11-01,b2c_course_sellers,germany,308.0
+2024-10-01,b2b_course_sellers,brazil,153.0
+2024-12-01,government_ngos,netherlands,591.0
+2024-10-01,b2c_course_sellers,australia,128.0
+2024-10-01,corporate_training,netherlands,328.0
+2024-10-01,customer_training,australia,357.0
+2024-11-01,customer_training,spain,299.0
+2024-11-01,corporate_training,netherlands,328.0
+2024-12-01,customer_training,spain,299.0
+2023-12-01,b2b_course_sellers,united states,249.0
+2023-12-01,customer_training,brazil,632.53
+2023-12-01,b2c_course_sellers,canada,206.32
+2023-12-01,corporate_training,spain,377.99
+2023-12-01,corporate_training,canada,79.0
+2024-05-01,government_ngos,united kingdom,625.86
+2025-03-01,b2c_course_sellers,united kingdom,249.34
+2025-04-01,corporate_training,germany,103.0
+2025-05-01,government_ngos,brazil,80.02
+2025-06-01,customer_training,netherlands,250.0
+2025-08-01,customer_training,france,79.0
+2025-08-01,b2c_course_sellers,canada,79.0
+2023-11-01,government_ngos,united kingdom,400.12
+2023-11-01,government_ngos,brazil,301.0
+2023-11-01,b2c_course_sellers,germany,173.0
+2024-01-01,government_ngos,united kingdom,456.13
+2024-02-01,corporate_training,india,627.14
+2024-03-01,government_ngos,india,811.57
+2024-04-01,government_ngos,united kingdom,526.86
+2024-07-01,b2b_course_sellers,germany,856.0
+2024-07-01,b2c_course_sellers,canada,277.57
+2024-09-01,b2c_course_sellers,united kingdom,890.76
+2024-11-01,government_ngos,united states,342.57
+2024-11-01,b2c_course_sellers,spain,1083.87
+2024-12-01,customer_training,germany,691.01
+2025-02-01,customer_training,france,102.93
+2025-03-01,customer_training,germany,407.09
+2025-04-01,b2c_course_sellers,india,249.11
+2025-06-01,customer_training,brazil,328.15
+2024-05-01,corporate_training,india,328.0
+2024-05-01,corporate_training,france,489.0
+2024-06-01,b2c_course_sellers,canada,277.57
+2024-07-01,government_ngos,india,554.3
+2024-09-01,government_ngos,united kingdom,137.93
+2024-11-01,customer_training,germany,691.01
+2025-01-01,corporate_training,spain,118.22
+2025-03-01,b2c_course_sellers,netherlands,24.22
+2025-03-01,government_ngos,india,249.22
+2025-03-01,b2b_course_sellers,india,103.22
+2025-05-01,government_ngos,united kingdom,273.22
+2023-09-01,b2c_course_sellers,france,460.86
+2024-04-01,corporate_training,united states,801.0
+2024-09-01,customer_training,brazil,277.74
+2024-09-01,government_ngos,brazil,954.5
+2023-08-01,b2b_course_sellers,netherlands,492.42
+2023-08-01,b2b_course_sellers,united kingdom,420.55
+2023-08-01,b2b_course_sellers,brazil,275.27
+2024-08-01,customer_training,brazil,277.74
+2023-07-01,corporate_training,netherlands,825.27
+2023-07-01,corporate_training,united kingdom,572.0
+2023-07-01,government_ngos,united kingdom,301.12
+2023-07-01,government_ngos,brazil,371.0
+2023-07-01,b2c_course_sellers,france,660.86
+2023-07-01,b2b_course_sellers,france,123.0
+2024-02-01,corporate_training,france,462.0
+2024-07-01,b2c_course_sellers,spain,906.0
+2024-09-01,customer_training,netherlands,762.06
+2024-09-01,b2c_course_sellers,netherlands,123.9
+2023-06-01,government_ngos,united kingdom,301.12
+2023-06-01,corporate_training,germany,249.0
+2023-06-01,government_ngos,brazil,370.85
+2023-06-01,b2b_course_sellers,france,152.0
+2023-09-01,b2c_course_sellers,india,348.0
+2024-02-01,b2c_course_sellers,canada,207.0
+2024-06-01,b2c_course_sellers,spain,706.0
+2024-08-01,customer_training,netherlands,931.11
+2024-11-01,government_ngos,australia,200.0
+2024-11-01,b2c_course_sellers,canada,207.68
+2023-05-01,customer_training,france,713.98
+2023-05-01,government_ngos,united kingdom,102.52
+2023-05-01,government_ngos,brazil,370.85
+2023-05-01,corporate_training,spain,107.99
+2023-05-01,corporate_training,canada,79.0
+2023-05-01,b2b_course_sellers,france,152.0
+2023-12-01,customer_training,netherlands,607.0
+2024-05-01,government_ngos,brazil,486.0
+2024-12-01,b2b_course_sellers,australia,446.0
+2023-04-01,government_ngos,india,797.14
+2023-04-01,customer_training,germany,362.89
+2023-07-01,b2c_course_sellers,india,377.0
+2024-04-01,government_ngos,brazil,583.43
+2024-05-01,customer_training,germany,557.51
+2024-11-01,b2b_course_sellers,australia,446.0
+2023-03-01,b2b_course_sellers,united states,249.0
+2023-03-01,government_ngos,india,597.14
+2023-03-01,customer_training,germany,308.0
+2023-03-01,corporate_training,spain,53.14
+2023-03-01,corporate_training,canada,79.0
+2023-07-01,b2b_course_sellers,india,363.04
+2023-06-01,b2c_course_sellers,australia,591.0
+2023-07-01,government_ngos,netherlands,981.0
+2023-09-01,b2b_course_sellers,spain,641.51
+2023-10-01,government_ngos,canada,326.0
+2023-11-01,customer_training,spain,193.3
+2023-12-01,b2c_course_sellers,spain,425.51
+2024-01-01,government_ngos,brazil,595.0
+2024-01-01,government_ngos,netherlands,717.92
+2024-05-01,government_ngos,netherlands,492.0
+2024-09-01,b2c_course_sellers,brazil,193.0
+2023-02-01,customer_training,france,763.0
+2023-02-01,b2b_course_sellers,netherlands,509.0
+2023-02-01,corporate_training,india,231.0
+2023-02-01,b2b_course_sellers,united kingdom,407.0
+2023-02-01,b2c_course_sellers,canada,946.0
+2023-02-01,b2b_course_sellers,brazil,405.04
+2023-06-01,b2b_course_sellers,india,363.04
+2023-07-01,corporate_training,brazil,540.0
+2024-02-01,b2c_course_sellers,spain,350.0
+2024-09-01,b2b_course_sellers,australia,745.0
+2023-02-01,corporate_training,france,882.0
+2023-02-01,b2c_course_sellers,spain,126.0
+2023-06-01,government_ngos,netherlands,981.0
+2023-09-01,b2b_course_sellers,canada,482.0
+2024-03-01,b2b_course_sellers,canada,415.27
+2024-04-01,government_ngos,netherlands,492.0
+2023-01-01,corporate_training,netherlands,401.0
+2023-01-01,corporate_training,united kingdom,572.0
+2023-01-01,government_ngos,germany,158.0
+2023-05-01,b2b_course_sellers,india,308.0
+2023-01-01,corporate_training,brazil,407.0
+2023-01-01,b2c_course_sellers,australia,620.0
+2023-01-01,b2c_course_sellers,united states,321.0
+2023-05-01,government_ngos,netherlands,981.0
+2023-11-01,government_ngos,netherlands,981.0
+2024-01-01,b2c_course_sellers,germany,94.0
+2024-04-01,b2c_course_sellers,germany,284.0
+2024-09-01,government_ngos,netherlands,781.0
+2023-02-01,customer_training,india,227.0
+2023-03-01,government_ngos,france,99.0
+2023-03-01,b2b_course_sellers,australia,29.0
+2023-04-01,government_ngos,france,99.0
+2023-05-01,customer_training,india,227.0
+2023-06-01,b2c_course_sellers,united states,526.0
+2023-09-01,customer_training,australia,198.0
+2023-11-01,customer_training,canada,497.0
+2023-12-01,b2b_course_sellers,australia,99.0
+2023-12-01,customer_training,united kingdom,99.0
+2024-02-01,government_ngos,canada,99.0
+2024-02-01,b2b_course_sellers,australia,99.0
+2024-02-01,b2b_course_sellers,united states,99.0
+2024-03-01,customer_training,australia,398.0
+2024-03-01,government_ngos,france,99.0
+2024-03-01,b2c_course_sellers,australia,398.0
+2024-03-01,b2c_course_sellers,united states,128.0
+2024-03-01,b2b_course_sellers,spain,526.0
+2024-04-01,customer_training,australia,627.0
+2024-04-01,corporate_training,australia,157.0
+2024-07-01,government_ngos,france,128.0
+2024-08-01,customer_training,united kingdom,398.0
+2024-09-01,customer_training,united kingdom,398.0
+2024-09-01,b2b_course_sellers,united states,99.0
+2025-09-01,customer_training,brazil,328.14
+2025-09-01,government_ngos,brazil,79.43
+2025-09-01,corporate_training,spain,24.0
+2025-10-01,customer_training,australia,249.0
+2025-10-01,corporate_training,germany,24.0
+2025-11-01,corporate_training,australia,79.0
+2025-08-01,b2c_course_sellers,spain,79.0
+2025-09-01,government_ngos,united kingdom,273.0
+2025-09-01,customer_training,netherlands,249.0
+2025-09-01,b2c_course_sellers,united states,24.0
+2025-10-01,government_ngos,canada,249.0
+2025-07-01,corporate_training,spain,24.0
+2025-07-01,b2c_course_sellers,germany,24.0
+2025-08-01,government_ngos,germany,248.9
+2025-09-01,corporate_training,canada,79.0
+2025-06-01,b2c_course_sellers,germany,24.0
+2025-07-01,government_ngos,germany,248.9
+2025-05-01,b2c_course_sellers,germany,24.0
+2025-06-01,b2b_course_sellers,germany,248.9
+2025-07-01,corporate_training,canada,79.0
+2025-01-01,b2c_course_sellers,germany,24.0
+2024-12-01,b2c_course_sellers,germany,308.0
+2025-01-01,corporate_training,canada,106.0
+2025-01-01,government_ngos,canada,249.0
+2025-01-01,government_ngos,spain,27.0
+2024-11-01,b2b_course_sellers,united states,299.0
+2024-12-01,b2b_course_sellers,united states,299.0
+2023-12-01,customer_training,france,740.96
+2023-12-01,b2b_course_sellers,germany,611.02
+2024-01-01,government_ngos,india,498.57
+2024-01-01,corporate_training,spain,377.86
+2024-03-01,customer_training,germany,360.64
+2024-04-01,customer_training,germany,557.51
+2024-04-01,government_ngos,india,910.57
+2024-05-01,corporate_training,brazil,268.0
+2024-08-01,customer_training,france,1077.23
+2024-09-01,government_ngos,india,1024.3
+2024-12-01,b2b_course_sellers,germany,1405.88
+2024-12-01,corporate_training,canada,200.92
+2025-02-01,customer_training,netherlands,250.11
+2025-03-01,b2c_course_sellers,france,79.0
+2025-03-01,b2c_course_sellers,india,249.24
+2025-05-01,government_ngos,india,249.22
+2025-06-01,customer_training,france,103.0
+2025-08-01,customer_training,netherlands,249.04
+2023-11-01,government_ngos,india,497.0
+2024-05-01,corporate_training,netherlands,677.37
+2024-05-01,government_ngos,india,910.57
+2024-09-01,customer_training,france,1108.59
+2024-09-01,b2b_course_sellers,germany,1182.0
+2024-10-01,customer_training,canada,662.37
+2024-11-01,government_ngos,germany,256.81
+2024-11-01,b2b_course_sellers,germany,1303.85
+2025-03-01,b2b_course_sellers,netherlands,79.0
+2025-03-01,b2b_course_sellers,united kingdom,600.9
+2025-04-01,b2c_course_sellers,netherlands,24.22
+2025-06-01,b2b_course_sellers,australia,24.0
+2023-10-01,corporate_training,spain,177.99
+2023-10-01,corporate_training,canada,79.0
+2024-02-01,b2b_course_sellers,germany,557.0
+2024-03-01,government_ngos,united kingdom,526.86
+2024-10-01,b2c_course_sellers,spain,1083.87
+2025-03-01,government_ngos,brazil,80.02
+2023-09-01,b2c_course_sellers,brazil,270.86
+2023-09-01,b2c_course_sellers,united kingdom,532.94
+2023-09-01,customer_training,germany,532.77
+2023-09-01,corporate_training,spain,177.99
+2023-09-01,corporate_training,canada,79.0
+2024-02-01,corporate_training,brazil,175.04
+2024-12-01,corporate_training,spain,716.22
+2025-02-01,b2c_course_sellers,canada,79.68
+2025-04-01,corporate_training,united states,182.07
+2023-08-01,b2c_course_sellers,canada,348.0
+2023-08-01,b2b_course_sellers,france,123.0
+2024-02-01,corporate_training,netherlands,407.37
+2024-03-01,corporate_training,united states,801.0
+2024-07-01,government_ngos,united kingdom,376.86
+2024-07-01,customer_training,canada,944.37
+2025-03-01,government_ngos,united kingdom,273.22
+2025-04-01,b2c_course_sellers,united kingdom,249.0
+2023-07-01,b2b_course_sellers,netherlands,322.3
+2023-07-01,b2c_course_sellers,brazil,369.86
+2023-07-01,corporate_training,india,824.47
+2023-07-01,b2c_course_sellers,united kingdom,433.94
+2023-07-01,government_ngos,india,795.43
+2023-07-01,b2b_course_sellers,united kingdom,539.0
+2023-07-01,b2b_course_sellers,brazil,274.25
+2024-06-01,customer_training,canada,1144.37
+2024-07-01,government_ngos,brazil,954.81
+2025-02-01,customer_training,brazil,328.15
+2025-02-01,b2c_course_sellers,spain,197.0
+2023-06-01,b2b_course_sellers,netherlands,550.0
+2023-06-01,corporate_training,united states,376.0
+2023-06-01,government_ngos,india,625.43
+2023-06-01,b2b_course_sellers,united kingdom,685.0
+2023-06-01,b2b_course_sellers,brazil,471.89
+2023-06-01,b2c_course_sellers,germany,202.0
+2024-09-01,b2c_course_sellers,france,746.0
+2024-09-01,b2c_course_sellers,india,477.14
+2023-05-01,b2b_course_sellers,netherlands,480.0
+2023-05-01,customer_training,brazil,916.0
+2023-05-01,government_ngos,india,625.43
+2023-05-01,b2b_course_sellers,united kingdom,784.0
+2023-05-01,b2c_course_sellers,canada,647.0
+2023-05-01,b2b_course_sellers,brazil,471.89
+2024-05-01,corporate_training,united kingdom,572.0
+2024-10-01,b2c_course_sellers,canada,108.68
+2023-04-01,government_ngos,united kingdom,102.52
+2023-04-01,government_ngos,brazil,304.0
+2023-04-01,b2c_course_sellers,canada,647.0
+2023-08-01,b2b_course_sellers,india,363.04
+2023-03-01,government_ngos,united kingdom,102.52
+2023-03-01,government_ngos,brazil,304.0
+2023-03-01,b2b_course_sellers,germany,185.04
+2024-03-01,government_ngos,brazil,583.43
+2023-03-01,government_ngos,netherlands,912.57
+2023-03-01,customer_training,australia,452.0
+2023-04-01,government_ngos,netherlands,911.0
+2023-05-01,b2c_course_sellers,spain,319.0
+2023-06-01,customer_training,spain,180.85
+2023-07-01,customer_training,spain,181.0
+2023-09-01,b2c_course_sellers,netherlands,135.0
+2023-10-01,b2b_course_sellers,spain,711.0
+2023-10-01,customer_training,spain,126.51
+2023-10-01,b2b_course_sellers,canada,581.0
+2024-01-01,customer_training,spain,393.0
+2024-03-01,b2c_course_sellers,germany,94.0
+2024-04-01,b2b_course_sellers,canada,615.27
+2024-05-01,b2b_course_sellers,canada,890.0
+2024-07-01,customer_training,spain,393.0
+2024-10-01,customer_training,spain,393.0
+2023-02-01,corporate_training,netherlands,526.04
+2023-02-01,customer_training,brazil,945.0
+2023-02-01,corporate_training,united kingdom,572.0
+2023-02-01,b2b_course_sellers,france,152.0
+2024-01-01,customer_training,canada,1060.37
+2024-02-01,corporate_training,united kingdom,871.0
+2023-02-01,corporate_training,brazil,407.0
+2023-02-01,b2b_course_sellers,india,126.0
+2023-04-01,b2c_course_sellers,spain,319.0
+2023-08-01,b2c_course_sellers,spain,492.0
+2023-09-01,government_ngos,canada,27.0
+2024-06-01,customer_training,spain,393.0
+2024-07-01,government_ngos,netherlands,711.0
+2023-01-01,corporate_training,india,231.0
+2023-01-01,government_ngos,united states,307.0
+2023-01-01,b2c_course_sellers,germany,392.0
+2023-01-01,government_ngos,australia,152.0
+2024-01-01,corporate_training,canada,249.0
+2023-01-01,customer_training,spain,483.0
+2023-01-01,corporate_training,france,682.0
+2023-04-01,customer_training,australia,452.0
+2023-07-01,b2c_course_sellers,netherlands,56.0
+2023-07-01,corporate_training,france,482.0
+2024-03-01,government_ngos,netherlands,422.0
+2023-01-01,customer_training,canada,326.0
+2023-02-01,customer_training,netherlands,99.0
+2023-02-01,customer_training,united kingdom,227.0
+2023-03-01,customer_training,united states,299.0
+2023-05-01,customer_training,united kingdom,398.0
+2023-05-01,government_ngos,france,99.0
+2023-05-01,customer_training,netherlands,99.0
+2023-06-01,government_ngos,france,99.0
+2023-06-01,customer_training,canada,596.0
+2023-06-01,corporate_training,australia,58.0
+2023-07-01,government_ngos,france,99.0
+2023-07-01,customer_training,canada,396.0
+2023-10-01,customer_training,canada,297.0
+2023-11-01,government_ngos,france,99.0
+2023-11-01,b2c_course_sellers,australia,497.0
+2023-11-01,b2c_course_sellers,united states,726.0
+2023-12-01,customer_training,india,128.0
+2024-01-01,government_ngos,france,99.0
+2024-01-01,b2c_course_sellers,united states,427.0
+2024-01-01,b2c_course_sellers,australia,398.0
+2024-03-01,corporate_training,australia,357.0
+2024-04-01,government_ngos,france,99.0
+2024-04-01,b2c_course_sellers,australia,398.0
+2024-04-01,b2c_course_sellers,united states,128.0
+2024-04-01,b2b_course_sellers,spain,526.0
+2024-05-01,b2b_course_sellers,spain,596.0
+2024-05-01,government_ngos,france,99.0
+2024-05-01,customer_training,australia,627.0
+2024-07-01,b2b_course_sellers,australia,398.0
+2024-07-01,b2b_course_sellers,united states,99.0
+2024-08-01,customer_training,india,398.0
+2024-09-01,government_ngos,france,128.0
+2024-09-01,customer_training,india,398.0
+2025-09-01,b2c_course_sellers,germany,24.0
+2025-10-01,corporate_training,united states,158.0
+2025-11-01,b2b_course_sellers,germany,249.0
+2025-07-01,b2c_course_sellers,united states,24.04
+2025-08-01,customer_training,brazil,328.14
+2025-10-01,corporate_training,australia,79.0
+2025-06-01,b2c_course_sellers,united states,24.04
+2025-09-01,government_ngos,india,249.0
+2025-05-01,b2c_course_sellers,united states,24.04
+2025-08-01,government_ngos,united states,79.0
+2025-05-01,corporate_training,spain,24.0
+2025-07-01,government_ngos,united states,79.0
+2025-04-01,corporate_training,australia,79.01
+2025-05-01,corporate_training,canada,79.0
+2025-01-01,b2c_course_sellers,united states,24.04
+2025-03-01,customer_training,australia,249.0
+2025-04-01,government_ngos,canada,249.0
+2024-12-01,b2c_course_sellers,united states,222.04
+2025-02-01,government_ngos,canada,249.0
+2025-02-01,government_ngos,spain,27.0
+2024-12-01,customer_training,australia,577.0
+2024-11-01,customer_training,australia,606.0
+2024-10-01,government_ngos,spain,422.0
+2024-10-01,government_ngos,canada,99.0
+2024-12-01,b2c_course_sellers,australia,58.0
+2023-12-01,b2b_course_sellers,netherlands,492.42
+2023-12-01,b2b_course_sellers,united kingdom,1089.03
+2023-12-01,b2b_course_sellers,brazil,275.27
+2024-01-01,government_ngos,united states,378.27
+2024-02-01,b2b_course_sellers,united kingdom,1089.22
+2024-03-01,corporate_training,india,627.14
+2024-03-01,b2c_course_sellers,brazil,272.0
+2024-05-01,government_ngos,australia,222.14
+2024-05-01,government_ngos,united states,106.82
+2024-09-01,b2b_course_sellers,united kingdom,985.3
+2024-11-01,government_ngos,united kingdom,279.14
+2024-11-01,customer_training,france,919.29
+2025-03-01,customer_training,france,102.93
+2025-03-01,corporate_training,spain,24.22
+2025-05-01,government_ngos,australia,79.0
+2025-05-01,b2c_course_sellers,india,249.11
+2025-06-01,b2b_course_sellers,india,103.0
+2025-08-01,customer_training,germany,158.0
+2023-11-01,government_ngos,united states,547.89
+2023-11-01,b2c_course_sellers,france,460.86
+2023-11-01,corporate_training,spain,177.99
+2023-11-01,corporate_training,canada,79.0
+2023-11-01,government_ngos,australia,222.02
+2024-04-01,government_ngos,australia,321.14
+2024-04-01,government_ngos,united states,405.82
+2024-04-01,corporate_training,brazil,241.0
+2024-11-01,government_ngos,brazil,1157.95
+2024-12-01,b2b_course_sellers,netherlands,684.0
+2025-03-01,government_ngos,germany,328.04
+2025-03-01,b2b_course_sellers,germany,497.9
+2025-04-01,corporate_training,india,157.69
+2025-05-01,government_ngos,united states,80.07
+2024-01-01,b2c_course_sellers,france,272.0
+2024-01-01,b2c_course_sellers,india,447.0
+2024-03-01,b2c_course_sellers,united kingdom,824.19
+2024-04-01,corporate_training,netherlands,477.37
+2024-11-01,b2b_course_sellers,netherlands,684.0
+2025-01-01,b2c_course_sellers,france,363.0
+2025-01-01,b2c_course_sellers,india,249.24
+2025-02-01,customer_training,germany,407.09
+2023-09-01,customer_training,brazil,442.0
+2023-09-01,b2c_course_sellers,germany,173.0
+2024-03-01,government_ngos,germany,328.0
+2024-04-01,customer_training,netherlands,461.92
+2024-05-01,customer_training,france,926.78
+2024-07-01,government_ngos,germany,78.81
+2024-09-01,government_ngos,united states,275.57
+2024-09-01,corporate_training,canada,249.0
+2024-12-01,customer_training,france,917.93
+2024-12-01,b2c_course_sellers,france,746.0
+2024-12-01,b2c_course_sellers,india,746.24
+2023-08-01,b2b_course_sellers,united states,249.0
+2023-11-01,b2c_course_sellers,india,447.0
+2024-01-01,government_ngos,australia,222.14
+2024-02-01,b2b_course_sellers,brazil,276.0
+2024-02-01,b2b_course_sellers,netherlands,555.35
+2024-03-01,customer_training,netherlands,461.92
+2024-03-01,corporate_training,france,489.0
+2024-03-01,b2c_course_sellers,netherlands,347.74
+2024-08-01,corporate_training,canada,249.0
+2024-09-01,b2b_course_sellers,netherlands,684.0
+2024-12-01,b2b_course_sellers,united kingdom,699.9
+2025-04-01,corporate_training,france,78.69
+2023-07-01,corporate_training,united states,376.0
+2023-07-01,government_ngos,united states,547.89
+2023-07-01,b2b_course_sellers,germany,354.5
+2023-07-01,b2c_course_sellers,germany,202.0
+2023-07-01,government_ngos,australia,476.88
+2024-07-01,b2b_course_sellers,france,123.0
+2024-11-01,b2b_course_sellers,united kingdom,699.9
+2023-06-01,b2c_course_sellers,brazil,559.86
+2023-06-01,corporate_training,india,754.47
+2023-06-01,b2c_course_sellers,united kingdom,434.97
+2023-06-01,government_ngos,united states,547.89
+2023-06-01,b2b_course_sellers,germany,354.5
+2023-06-01,government_ngos,australia,476.88
+2024-06-01,corporate_training,canada,249.0
+2024-07-01,b2b_course_sellers,india,598.83
+2024-09-01,corporate_training,spain,472.0
+2023-05-01,government_ngos,united states,178.43
+2023-05-01,b2b_course_sellers,germany,354.5
+2023-05-01,customer_training,germany,532.77
+2023-05-01,government_ngos,australia,422.0
+2024-08-01,corporate_training,spain,472.0
+2023-04-01,customer_training,france,781.5
+2023-04-01,government_ngos,germany,158.0
+2023-04-01,corporate_training,spain,107.99
+2023-04-01,corporate_training,canada,79.0
+2024-04-01,customer_training,brazil,371.0
+2024-04-01,corporate_training,united kingdom,572.0
+2024-09-01,government_ngos,australia,472.0
+2023-03-01,customer_training,france,591.5
+2023-03-01,b2b_course_sellers,netherlands,509.0
+2023-03-01,government_ngos,germany,158.0
+2023-03-01,b2b_course_sellers,united kingdom,656.0
+2023-03-01,b2c_course_sellers,canada,946.0
+2023-03-01,b2b_course_sellers,brazil,405.04
+2024-02-01,customer_training,canada,1060.37
+2024-03-01,customer_training,brazil,272.0
+2024-06-01,corporate_training,spain,472.3
+2023-03-01,b2c_course_sellers,spain,291.1
+2023-06-01,corporate_training,france,482.0
+2023-06-01,b2c_course_sellers,netherlands,56.0
+2024-01-01,b2b_course_sellers,canada,540.0
+2024-08-01,customer_training,australia,454.0
+2024-09-01,b2b_course_sellers,brazil,153.0
+2024-11-01,government_ngos,netherlands,781.0
+2023-02-01,b2b_course_sellers,united states,249.0
+2023-02-01,corporate_training,germany,249.0
+2023-02-01,customer_training,germany,308.0
+2023-09-01,customer_training,netherlands,323.0
+2023-02-01,government_ngos,canada,121.0
+2023-12-01,government_ngos,canada,326.0
+2024-04-01,b2c_course_sellers,france,202.0
+2024-08-01,government_ngos,spain,126.0
+2023-01-01,b2c_course_sellers,brazil,372.0
+2023-01-01,b2c_course_sellers,united kingdom,501.0
+2023-01-01,corporate_training,united states,405.0
+2023-01-01,government_ngos,india,357.0
+2024-04-01,b2c_course_sellers,india,647.0
+2024-05-01,corporate_training,germany,79.0
+2023-01-01,corporate_training,australia,152.0
+2023-01-01,b2c_course_sellers,netherlands,56.0
+2023-08-01,government_ngos,canada,27.0
+2023-11-01,b2b_course_sellers,canada,581.0
+2024-02-01,customer_training,spain,393.0
+2023-01-01,government_ngos,france,99.0
+2023-02-01,b2b_course_sellers,australia,29.0
+2023-02-01,government_ngos,spain,29.0
+2023-03-01,customer_training,india,227.0
+2023-04-01,customer_training,india,227.0
+2023-07-01,corporate_training,australia,58.0
+2023-08-01,b2b_course_sellers,australia,99.0
+2023-08-01,government_ngos,spain,99.0
+2023-09-01,customer_training,united kingdom,398.0
+2023-11-01,b2b_course_sellers,spain,427.0
+2023-12-01,customer_training,australia,198.0
+2024-01-01,b2b_course_sellers,spain,497.0
+2024-03-01,customer_training,united kingdom,598.0
+2024-04-01,customer_training,united kingdom,598.0
+2024-05-01,customer_training,india,29.0
+2024-08-01,government_ngos,canada,99.0
+2024-09-01,b2c_course_sellers,united states,277.0
+2024-09-01,customer_training,australia,357.0
+2024-09-01,b2c_course_sellers,australia,128.0
+2025-10-01,customer_training,brazil,249.0
+2025-10-01,customer_training,netherlands,249.0
+2025-10-01,b2c_course_sellers,united states,24.0
+2025-11-01,corporate_training,netherlands,79.0
+2025-08-01,corporate_training,spain,24.0
+2025-09-01,customer_training,australia,249.0
+2025-07-01,b2c_course_sellers,india,249.0
+2025-09-01,government_ngos,united states,79.0
+2025-06-01,b2c_course_sellers,india,249.0
+2025-06-01,corporate_training,spain,24.0
+2025-08-01,government_ngos,india,249.0
+2025-08-01,corporate_training,canada,79.0
+2025-06-01,customer_training,australia,249.0
+2025-07-01,government_ngos,india,249.0
+2025-03-01,b2c_course_sellers,united states,24.04
+2025-04-01,b2c_course_sellers,germany,24.0
+2025-06-01,corporate_training,canada,79.0
+2025-06-01,government_ngos,canada,249.0
+2025-03-01,corporate_training,canada,79.0
+2024-12-01,b2b_course_sellers,brazil,353.0
+2024-11-01,b2b_course_sellers,brazil,353.0
+2024-11-01,customer_training,india,198.0
+2024-12-01,customer_training,india,99.0
+2023-12-01,government_ngos,germany,272.14
+2023-12-01,corporate_training,india,426.62
+2023-12-01,b2c_course_sellers,france,267.77
+2024-01-01,b2b_course_sellers,germany,556.52
+2024-01-01,corporate_training,netherlands,406.6
+2024-07-01,customer_training,netherlands,632.03
+2024-07-01,corporate_training,united states,734.0
+2024-10-01,b2c_course_sellers,united kingdom,890.76
+2024-10-01,corporate_training,united states,830.0
+2024-12-01,government_ngos,united states,173.64
+2024-12-01,corporate_training,united kingdom,352.0
+2025-01-01,government_ngos,india,592.22
+2025-02-01,government_ngos,united kingdom,274.29
+2025-02-01,b2c_course_sellers,netherlands,24.9
+2025-02-01,b2c_course_sellers,united kingdom,498.34
+2025-05-01,b2b_course_sellers,india,103.22
+2025-05-01,corporate_training,brazil,24.11
+2025-06-01,government_ngos,germany,327.9
+2025-07-01,b2b_course_sellers,australia,24.0
+2025-08-01,b2b_course_sellers,united kingdom,351.9
+2023-11-01,customer_training,france,571.08
+2023-11-01,corporate_training,germany,249.0
+2023-11-01,b2b_course_sellers,germany,611.02
+2024-02-01,customer_training,germany,556.88
+2024-02-01,corporate_training,spain,378.0
+2024-02-01,b2c_course_sellers,france,272.0
+2024-02-01,b2c_course_sellers,india,647.0
+2024-03-01,b2b_course_sellers,india,416.04
+2024-05-01,b2b_course_sellers,brazil,375.0
+2024-05-01,b2b_course_sellers,netherlands,781.99
+2024-05-01,b2b_course_sellers,united kingdom,1038.2
+2024-06-01,customer_training,netherlands,461.92
+2024-10-01,government_ngos,united kingdom,108.93
+2024-11-01,corporate_training,united states,715.07
+2025-03-01,corporate_training,germany,103.0
+2025-04-01,government_ngos,brazil,80.02
+2025-04-01,b2c_course_sellers,canada,79.68
+2025-07-01,corporate_training,france,78.69
+2023-10-01,corporate_training,netherlands,655.64
+2023-10-01,b2b_course_sellers,netherlands,692.42
+2023-10-01,customer_training,brazil,631.49
+2023-10-01,corporate_training,united kingdom,572.0
+2023-10-01,government_ngos,india,326.89
+2023-10-01,b2b_course_sellers,united kingdom,1088.01
+2023-10-01,b2b_course_sellers,brazil,275.27
+2024-02-01,government_ngos,india,527.57
+2024-04-01,b2b_course_sellers,brazil,305.0
+2024-04-01,b2b_course_sellers,netherlands,854.35
+2024-04-01,b2b_course_sellers,united kingdom,899.22
+2024-06-01,government_ngos,australia,276.87
+2024-08-01,government_ngos,germany,107.81
+2024-10-01,customer_training,brazil,411.75
+2024-10-01,government_ngos,brazil,1514.4
+2025-01-01,customer_training,france,196.93
+2025-04-01,customer_training,france,103.0
+2023-09-01,corporate_training,netherlands,655.64
+2023-09-01,corporate_training,united kingdom,572.0
+2023-09-01,government_ngos,united kingdom,400.12
+2023-09-01,government_ngos,brazil,371.0
+2023-09-01,b2c_course_sellers,canada,377.32
+2023-09-01,b2b_course_sellers,france,123.0
+2023-12-01,b2c_course_sellers,india,447.0
+2025-02-01,government_ngos,brazil,80.02
+2025-04-01,government_ngos,united kingdom,273.22
+2025-04-01,b2b_course_sellers,australia,24.0
+2025-04-01,b2c_course_sellers,spain,103.0
+2023-08-01,b2c_course_sellers,brazil,369.86
+2023-08-01,government_ngos,germany,327.35
+2023-08-01,b2c_course_sellers,united kingdom,433.94
+2023-08-01,corporate_training,united states,600.0
+2024-01-01,corporate_training,brazil,241.0
+2024-10-01,customer_training,netherlands,762.06
+2024-10-01,b2c_course_sellers,netherlands,53.9
+2024-11-01,b2c_course_sellers,france,746.0
+2024-11-01,b2c_course_sellers,india,647.24
+2025-01-01,corporate_training,india,157.69
+2023-07-01,customer_training,brazil,442.0
+2023-07-01,b2c_course_sellers,canada,647.0
+2024-07-01,customer_training,brazil,232.98
+2024-12-01,government_ngos,australia,200.0
+2024-12-01,corporate_training,brazil,174.11
+2025-02-01,corporate_training,united states,182.07
+2025-02-01,b2b_course_sellers,australia,118.0
+2023-06-01,customer_training,brazil,729.12
+2024-01-01,customer_training,netherlands,607.0
+2024-06-01,customer_training,brazil,301.0
+2024-06-01,government_ngos,united states,390.0
+2025-01-01,b2b_course_sellers,australia,118.0
+2023-05-01,b2c_course_sellers,brazil,559.86
+2023-05-01,corporate_training,india,725.47
+2023-05-01,b2c_course_sellers,united kingdom,670.48
+2023-09-01,b2b_course_sellers,india,363.04
+2023-10-01,corporate_training,brazil,610.0
+2023-12-01,corporate_training,france,761.0
+2024-05-01,corporate_training,canada,249.0
+2024-09-01,corporate_training,germany,108.0
+2025-01-01,corporate_training,france,266.69
+2023-04-01,b2b_course_sellers,united states,249.0
+2023-04-01,b2c_course_sellers,brazil,559.86
+2023-04-01,b2c_course_sellers,united kingdom,670.48
+2023-04-01,corporate_training,germany,249.0
+2023-09-01,corporate_training,brazil,610.0
+2024-07-01,b2c_course_sellers,france,744.98
+2024-07-01,b2c_course_sellers,india,477.14
+2024-08-01,corporate_training,germany,79.0
+2023-03-01,corporate_training,india,231.0
+2023-03-01,b2c_course_sellers,germany,392.0
+2023-10-01,customer_training,netherlands,323.0
+2024-03-01,b2b_course_sellers,france,422.0
+2024-06-01,b2c_course_sellers,france,556.0
+2024-06-01,b2c_course_sellers,india,477.14
+2024-10-01,b2b_course_sellers,australia,446.0
+2023-03-01,corporate_training,france,682.53
+2023-03-01,government_ngos,canada,121.0
+2023-04-01,government_ngos,canada,121.0
+2023-05-01,corporate_training,france,682.51
+2023-06-01,b2b_course_sellers,spain,422.0
+2023-07-01,b2b_course_sellers,canada,383.0
+2023-09-01,b2c_course_sellers,spain,492.0
+2024-01-01,customer_training,brazil,460.98
+2023-02-01,government_ngos,germany,158.0
+2023-02-01,b2c_course_sellers,france,832.0
+2023-02-01,corporate_training,spain,53.14
+2023-02-01,corporate_training,canada,79.0
+2024-02-01,corporate_training,canada,249.0
+2024-05-01,corporate_training,spain,405.0
+2024-06-01,corporate_training,germany,79.0
+2023-02-01,customer_training,spain,483.0
+2023-05-01,customer_training,spain,180.85
+2023-05-01,b2c_course_sellers,netherlands,56.0
+2023-05-01,b2b_course_sellers,spain,422.0
+2023-06-01,b2b_course_sellers,canada,383.0
+2023-08-01,b2c_course_sellers,netherlands,135.0
+2023-09-01,government_ngos,netherlands,911.0
+2024-10-01,government_ngos,netherlands,781.0
+2023-01-01,b2b_course_sellers,united states,249.0
+2023-01-01,customer_training,brazil,945.0
+2024-01-01,corporate_training,united kingdom,572.0
+2024-08-01,b2b_course_sellers,australia,422.0
+2023-04-01,b2c_course_sellers,netherlands,56.0
+2023-05-01,b2b_course_sellers,canada,383.0
+2023-07-01,b2c_course_sellers,spain,292.0
+2023-07-01,b2b_course_sellers,spain,422.0
+2024-07-01,government_ngos,spain,126.0
+2023-01-01,b2b_course_sellers,australia,29.0
+2023-01-01,customer_training,united kingdom,227.0
+2023-01-01,customer_training,netherlands,29.0
+2023-02-01,customer_training,canada,326.0
+2023-02-01,b2c_course_sellers,india,29.0
+2023-03-01,government_ngos,spain,29.0
+2023-04-01,b2b_course_sellers,australia,29.0
+2023-04-01,government_ngos,spain,29.0
+2023-05-01,customer_training,canada,596.0
+2023-06-01,customer_training,netherlands,299.0
+2023-06-01,customer_training,united kingdom,398.0
+2023-07-01,customer_training,united kingdom,398.0
+2023-07-01,customer_training,netherlands,299.0
+2023-08-01,customer_training,australia,398.0
+2023-08-01,corporate_training,australia,58.0
+2023-10-01,customer_training,united kingdom,198.0
+2023-10-01,government_ngos,france,99.0
+2023-10-01,b2c_course_sellers,australia,497.0
+2023-10-01,b2c_course_sellers,united states,726.0
+2023-11-01,customer_training,india,128.0
+2024-01-01,customer_training,united kingdom,99.0
+2024-02-01,government_ngos,france,99.0
+2024-03-01,government_ngos,canada,99.0
+2024-05-01,b2c_course_sellers,australia,398.0
+2024-05-01,b2c_course_sellers,united states,128.0
+2024-06-01,b2b_course_sellers,australia,398.0
+2024-06-01,customer_training,united kingdom,598.0
+2024-06-01,b2b_course_sellers,united states,99.0
+2024-07-01,corporate_training,australia,398.0
+2024-07-01,customer_training,united kingdom,598.0
+2024-07-01,government_ngos,canada,99.0
+2024-08-01,b2c_course_sellers,australia,128.0
+2024-08-01,b2c_course_sellers,united states,128.0
+2024-08-01,b2b_course_sellers,united states,99.0
+2025-09-01,b2b_course_sellers,united kingdom,328.0
+2025-09-01,corporate_training,france,79.0
+2025-11-01,government_ngos,united states,79.0
+2025-08-01,b2c_course_sellers,india,249.0
+2025-10-01,government_ngos,india,249.0
+2025-10-01,b2b_course_sellers,india,24.0
+2025-08-01,corporate_training,germany,24.0
+2025-07-01,customer_training,australia,249.0
+2025-06-01,corporate_training,germany,24.0
+2025-05-01,corporate_training,united kingdom,103.0
+2025-05-01,customer_training,australia,249.0
+2025-05-01,corporate_training,netherlands,79.0
+2025-02-01,corporate_training,australia,79.01
+2025-03-01,government_ngos,canada,249.0
+2025-02-01,government_ngos,netherlands,94.0
+2024-11-01,corporate_training,australia,422.0
+2024-10-01,corporate_training,australia,422.0
+2024-12-01,corporate_training,netherlands,407.0
+2024-10-01,b2c_course_sellers,brazil,193.0
+2024-10-01,b2b_course_sellers,united states,299.0
+2024-10-01,customer_training,united kingdom,398.0
