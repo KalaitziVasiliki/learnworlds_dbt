@@ -9,11 +9,6 @@ Transformations:
 - Expand each invoice into multiple rows (one per month)
 - Allocate revenue evenly across the billing period
 Grain: One row per invoice per month
-
-
-Note:
-- CROSS JOIN with a generated range is used to create one row per month. 
-- This is to avoid a more complex solution like recursive queries,
 ===========================================================
 */
 
