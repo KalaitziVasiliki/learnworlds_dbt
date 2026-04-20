@@ -8,10 +8,6 @@ Transformations:
     - Join multiple dimensions to create a denormalized dataset
     - Adds business context (country, use_case, billing_frequency)
 Grain:One row per invoice
-
-Note:
-    - LEFT JOINS are used to ensure that no invoice records are dropped due to missing dimensional data.
-    - Maintaining all invoices is critical for the revenue accuracy and correct MRR calculations.
 ===========================================================
 */
 
