@@ -20,12 +20,12 @@ The project follows a layered dbt architecture:
     * Type casting
     * Column standardization
     * Basic cleaning (trim, lowercase)
-    Models:
-    * `stg_invoices`
-    * `stg_customers`
-    * `stg_products`
-    * `stg_subscriptions`
-    * `stg_schools`
+    * Models:
+      * `stg_invoices`
+      * `stg_customers`
+      * `stg_products`
+      * `stg_subscriptions`
+      * `stg_schools`
   ###  Intermediate Layer (`int_`)
   Business logic and joins are applied.
     #### `int_invoice_enriched`
