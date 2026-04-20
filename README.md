@@ -91,13 +91,71 @@ screenshots/         → dbt run & docs proof
 
 ---
 
+## Setup & Installation
+  ### Prerequisites
+  * Python 3.9+
+  * dbt
+  * DuckDB
+
+  Install dbt:
+  ```bash
+  pip install dbt-duckdb
+  ```
+
+  ### Optional: Virtual Environment
+  ```bash
+  python -m venv venv
+  venv\Scripts\activate
+  ```
+
+  ### Install Dependencies
+  ```bash
+  pip install dbt-duckdb
+  ```
+
+
 ## How to Run
 
-```bash
-dbt seed
-dbt run
-dbt test
-```
+  ### 1. Load Seed Data
+  ```bash
+  dbt seed
+  ```
+
+  ### 2. Run Staging
+  ```bash
+  dbt run --select staging
+  ```
+
+  ### 3. Run Intermediate
+  ```bash
+  dbt run --select intermediate
+  ```
+
+  ### 4. Run Marts
+  ```bash
+  dbt run --select marts
+  ```
+
+  ### 5. Run Full Pipeline
+  ```bash
+  dbt run
+  ```
+
+  ### 6. Run Tests
+  ```bash
+  dbt test
+  ```
+
+  ### 7. Generate Docs
+  ```bash
+  dbt docs generate
+  dbt docs serve
+  ```
+
+  Open:
+  ```
+  http://localhost:8080
+  ```
 
 ---
 
