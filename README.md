@@ -1,7 +1,7 @@
 # LearnWorlds Take-Home Assignment — Analytics Engineer 
 
 ## Overview
-While joining a BI team at a SaaS company that sells online learning software. The business sells subscriptions to schools, which fall into distinct use cases: B2B course sellers, B2C course sellers, customer training, corporate training, and government/NGOs. Leadership wants to track **Monthly Recurring Revenue (MRR)** over time, broken down by school use case.
+Joining a BI team at a SaaS company that sells online learning software. The business sells subscriptions to schools, which fall into distinct use cases: B2B course sellers, B2C course sellers, customer training, corporate training, and government/NGOs. Leadership wants to track **Monthly Recurring Revenue (MRR)** over time, broken down by school use case.
 The final output provides MRR broken down by:
 * Calendar month
 * School use case
