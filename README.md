@@ -88,10 +88,10 @@ The project follows a layered dbt architecture:
   * Validation of transformations across layers
   * Debugging intermediate results
   * Delivering the final mart output (`financial_mrr`)
-  Folder structure:
-  * `exports/staging/`
-  * `exports/intermediate/`
-  * `exports/marts/`
+  * Folder structure:
+    * `exports/staging/`
+    * `exports/intermediate/`
+    * `exports/marts/`
     
 
 ## Structure
