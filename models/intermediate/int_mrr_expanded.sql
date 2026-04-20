@@ -2,7 +2,6 @@
 ===========================================================
  Intermediate Model: int_mrr_expanded
 ===========================================================
-
 Goal:This model transforms invoice data into monthly revenue contributions by expanding each invoice across its billing period.
 Transformations:
 - Calculate the number of months per invoice
