@@ -50,15 +50,15 @@ The project follows a layered dbt architecture:
 
 
 ## Assumptions
-  ### 1. Inclusive Month Counting
+1. Inclusive Month Counting
     Start and end months are both included: Jan to Dec = 12 months
-  ### 2. Even Revenue Distribution
+2. Even Revenue Distribution
     Revenue is split evenly per month
-  ### 3. Credit Notes (Negative Invoices)
+3. Credit Notes (Negative Invoices)
     * Treated as revenue adjustments
     * Amortized across the same billing period
     * Included in final MRR
-  ### 4. Subscription Status
+4. Subscription Status
     All invoices are included regardless of subscription status.
 
 
