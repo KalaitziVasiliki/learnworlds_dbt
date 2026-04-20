@@ -1,12 +1,15 @@
-# LearnWorlds Take-Home Assignemtn — Analytics Engineer 
+# LearnWorlds Take-Home Assignment — Analytics Engineer 
 
 ## Overview
-This project implements a layered data warehouse using dbt to calculate **Monthly Recurring Revenue (MRR)** for a SaaS business.
+While joining a BI team at a SaaS company that sells online learning software. The business sells subscriptions to schools, which fall into distinct use cases: B2B course sellers, B2C course sellers, customer training, corporate training, and government/NGOs. Leadership wants to track **Monthly Recurring Revenue (MRR)** over time, broken down by school use case.
 The final output provides MRR broken down by:
 * Calendar month
 * School use case
 * Customer country
-The pipeline transforms raw transactional data (invoices, subscriptions, customers, products, schools) into a clean, analytics-ready mart.
+
+
+## MRR Calculation Logic
+Revenue is **amortized across the billing period** of each invoice and here is an example: The invoice is 1,200 euros for the full period of 12 months -> MRR contribution: 100 euros/month
 
 
 ## Data Modeling Approach
@@ -44,10 +47,6 @@ The project follows a layered dbt architecture:
       * `country`
     Metric:
       * `mrr_usd`
-
-
-## MRR Calculation Logic
-Revenue is **amortized across the billing period** of each invoice and here is an example: The invoice is 1,200 euros for the full period of 12 months -> MRR contribution: 100 euros/month
 
 
 ## Assumptions
