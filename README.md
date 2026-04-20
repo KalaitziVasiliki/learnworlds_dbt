@@ -1,185 +1,136 @@
-# LearnWorlds Take-Home Assignment — Analytics Engineer 
+# LearnWorlds — Analytics Engineer Take-Home (dbt Project)
 
 ## Overview
-Joining a BI team at a SaaS company that sells online learning software. The business sells subscriptions to schools, which fall into distinct use cases: B2B course sellers, B2C course sellers, customer training, corporate training, and government/NGOs. Leadership wants to track **Monthly Recurring Revenue (MRR)** over time, broken down by school use case.
-The final output provides MRR broken down by:
-* Calendar month
-* School use case
-* Customer country
 
+This project builds a layered dbt pipeline to calculate **Monthly Recurring Revenue (MRR)** for a SaaS business.
+The final output provides MRR segmented by:
+* `month`
+* `use_case`
+* `country`
 
-## MRR Calculation Logic
-Revenue is **amortized across the billing period** of each invoice and here is an example: The invoice is 1,200 euros for the full period of 12 months -> MRR contribution: 100 euros/month
+---
 
+## MRR Logic
 
-## Data Modeling Approach
-The project follows a layered dbt architecture:
+Revenue is **amortized evenly across the billing period** of each invoice.
 
-  ### Staging Layer (`stg_`)
-  * Minimal transformations:
-    * Type casting
-    * Column standardization
-    * Basic cleaning (trim, lowercase)
-    * Models:
-      * `stg_invoices`
-      * `stg_customers`
-      * `stg_products`
-      * `stg_subscriptions`
-      * `stg_schools`
-  ###  Intermediate Layer (`int_`)
-  Business logic and joins are applied.
-    #### `int_invoice_enriched`
-      Combine all relevant entities:
-      * Customers → country
-      * Subscriptions → school_id
-      * Schools → use_case
-      * Products → billing_frequency
-    #### `int_mrr_expanded` 
-      Transformation:
-      * Expand each invoice into monthly records
-      * Distribute revenue evenly across billing periods
+Example:
+1,200 euros over 12 months → 100 euros MRR per month
 
-  ###  Mart Layer (`financial_`)
-    #### `financial_mrr`
-    Final fact table with grain:
-      * `month`
-      * `use_case`
-      * `country`
-    Metric:
-      * `mrr_usd`
+---
 
+## Data Model
+
+### Staging (`stg_`)
+
+Clean and standardize raw data
+Models: `stg_invoices`, `stg_customers`, `stg_products`, `stg_subscriptions`, `stg_schools`
+
+### Intermediate (`int_`)
+
+Apply business logic
+
+* `int_invoice_enriched` → joins all entities
+* `int_mrr_expanded` → expands invoices into monthly revenue
+
+### Mart (`financial_`)
+
+Final model:
+
+* `financial_mrr` → MRR by month, use_case, country
+
+---
+
+## Testing
+
+* Schema tests: `not_null`, `unique`, `accepted_values`, `relationships`
+* Grain validation: (`month + use_case + country`)
+* Reconciliation test: ensures total invoiced ≈ total MRR
+
+Negative values are allowed (credit notes) and validated via reconciliation.
+
+---
 
 ## Assumptions
-1. Inclusive Month Counting
-    Start and end months are both included: Jan to Dec = 12 months
-2. Even Revenue Distribution
-    Revenue is split evenly per month
-3. Credit Notes (Negative Invoices)
-    * Treated as revenue adjustments
-    * Amortized across the same billing period
-    * Included in final MRR
-4. Subscription Status
-    All invoices are included regardless of subscription status.
 
+* Even monthly revenue distribution (no daily proration)
+* Inclusive billing periods
+* Negative invoices treated as adjustments
+* All invoices included regardless of subscription status
 
-## Data Quality & Testing
-  ### Schema Tests
-  * `not_null`
-  * `unique`
-  * `accepted_values`
-  ### Model-Level Tests
-  * Unique grain:
-    * `month + use_case + country`
-  ### Reconciliation Test
-  A custom dbt data test is implemented to ensure **revenue consistency across the pipeline**.
-  It validates that the total invoiced revenue ≈ total MRR after transformation.
-  This guarantees that no revenue is lost during transformation abd the final mart reflects true financial totals.
-  ### Excluded Tests
-  I intentionally did not enforce strict constraints on amount_usd (e.g. positivity), since negative values represent valid credit notes. Instead, correctness is validated through reconciliation.
+---
 
+## Outputs
 
-## Output & Data Exports
-  The final model:
-  ```
-  financial_mrr
-  ```
-  The project includes CSV exports for all layers of the pipeline, located in the `exports/` folder.
-  These exports serve multiple purposes:
-  * Validation of transformations across layers
-  * Debugging intermediate results
-  * Delivering the final mart output (`financial_mrr`)
-  * Folder structure:
-    * `exports/staging/`
-    * `exports/intermediate/`
-    * `exports/marts/`
-    
+Final dataset:
 
-## Structure
-  ```
-  seeds/                 : Raw CSV input files  
-  models/staging/        : Data cleaning  
-  models/intermediate/   : Business logic  
-  models/marts/          : Final analytical models  
-  models/utilities/      : Helper models (e.g. date spine)  
-  tests/                 : Data tests  
-  analyses/              : Exploratory queries  
-  exports/               : CSV exports of models (for validation & deliverables)
-    ├── staging/         : Staging layer outputs  
-    ├── intermediate/    : Intermediate layer outputs  
-    └── marts/           : Final mart outputs  
-  ```
+```
+financial_mrr
+```
 
+CSV export:
 
-## Setup & Installation
-  ### Prerequisites
-  * Python 3.9+
-  * dbt
-  * DuckDB
+```
+exports/marts/financial_mrr.csv
+```
 
-  Install dbt:
-  ```bash
-  pip install dbt-duckdb
-  ```
+---
 
-  ### Optional: Virtual Environment
-  ```bash
-  python -m venv venv
-  venv\Scripts\activate
-  ```
+## Project Structure
 
-  ### Install Dependencies
-  ```bash
-  pip install dbt-duckdb
-  ```
+```
+seeds/               → Raw data  
+models/staging/      → Cleaning  
+models/intermediate/ → Business logic  
+models/marts/        → Final model  
+tests/               → Data tests  
+analyses/            → Validation & exploration  
+exports/             → CSV outputs  
+screenshots/         → dbt run & docs proof  
+```
 
+---
 
-## Execution Steps
-  ### 1. Load Seed Data
-  ```bash
-  dbt seed
-  ```
-  ### 2. Run Staging
-  ```bash
-  dbt run --select staging
-  ```
-  ### 3. Run Intermediate
-  ```bash
-  dbt run --select intermediate
-  ```
-  ### 4. Run Marts
-  ```bash
-  dbt run --select marts
-  ```
-  ### 5. Run Full Pipeline
-  ```bash
-  dbt run
-  ```
-  ### 6. Run Tests
-  ```bash
-  dbt test
-  ```
-  ### 7. Generate Docs
-  ```bash
-  dbt docs generate
-  dbt docs serve
-  ```
-  Open:
-  ```
-  http://localhost:8080
-  ```
+## How to Run
 
+```bash
+dbt seed
+dbt run
+dbt test
+```
 
-## Design Decisions
-The project was designed with simplicity and clarity in mind, aiming to reflect how a real-world dbt project would be structured under time constraints.
-* A layered approach (staging → intermediate → marts) was used to keep transformations organized and maintainable
-* Business logic is centralized in the intermediate layer, making it easier to debug and extend
-* The final mart is intentionally simple, so it can be easily consumed by users and tools
-* Readability and transparency were prioritized over complex optimizations, ensuring that each transformation step is easy to understand
+---
 
+## Deliverables Coverage
+
+| Requirement                      | Implementation                            |
+| -------------------------------- | ----------------------------------------- |
+| Source definitions & staging     | `seeds/` + `models/staging/`              |
+| Final mart model                 | `models/marts/financial_mrr.sql`          |
+| dbt tests                        | `schema.yml` across all layers            |
+| README (decisions & assumptions) | This document                             |
+| CSV export                       | `exports/marts/financial_mrr.csv`         |
+| dbt build screenshots            | `screenshots/dbt_run.png`, `dbt_test.png` |
+| dbt docs schema                  | `screenshots/dbt_docs_lineage.png`        |
+
+---
+
+## Design Notes
+
+The project prioritizes:
+
+* Clear layer separation
+* Simplicity and readability
+* Correct revenue allocation
+
+---
 
 ## Future Improvements
-If this project were extended into a production environment, the following improvements would be considered:
-* Introduce a proper date dimension table for more flexible time-based analysis
-* Implement subscription snapshots to better track lifecycle changes over time
-* Expand reconciliation testing to cover more edge cases
-* Optimize performance for larger datasets (e.g. incremental models, partitioning)
+
+* Add date dimension
+* Introduce snapshots
+* Support daily proration
+* Optimize performance (incremental models)
+
+---
+
